@@ -464,7 +464,7 @@
           h5 Figura 1
           span Categorías para la segmentación de mercados
         img(src='@/assets/curso/temas/35.svg')
-    .d-flex.align-items-start.justify-content-center.mb-5
+    .d-flex.align-items-start.justify-content-center.my-5
       img(src="@/assets/curso/temas/dots-1.svg" style="width: 84px").me-3.d-lg-block.d-none
       div
         .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4
@@ -473,6 +473,16 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         img(src='@/assets/curso/temas/36.svg')
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        p Con el cumplimiento de los criterios anteriores, es posible garantizar que el segmento funcione para una correcta estrategia de marketing. 
+        .tarjeta.bg-3-claro.p-4.d-flex.align-items-center
+          img(src='@/assets/curso/temas/37.svg' style='width: 115px').me-3
+          p.mb-0 Para ampliar el conocimiento acerca de los conceptos y tendencias de mercadeo, observe el video 
+            span.r-1 Tendencias de negocios - Mercadeo y ventas, 
+            |el cual se encuentra en el material complementario.
+      .col-lg-4
+        img.rounded-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/38.jpg')
 
 
 
