@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Análisis y diagnóstico de clientes',
+    descripcionCurso:
+      'Este componente se divide en varios espacios de contenidos relacionados con el mercado y los clientes. En un primer momento, se abordará el concepto de mercado, la tipología y diferentes estrategias para su segmentación, y en un segundo momento, se desarrollarán aspectos básicos de la investigación de mercados, técnicas e instrumentos de recolección. Finalmente, se presentan temas como el diagnóstico de clientes, métodos y técnicas. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {

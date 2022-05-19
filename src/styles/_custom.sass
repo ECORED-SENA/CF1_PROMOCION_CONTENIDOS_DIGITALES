@@ -1,0 +1,149 @@
+// banner interno // 
+.banner-interno__fondo
+  background-image: url('../assets/curso/portada/banner-interno.png') !important
+//-----------------//
+
+// Texto resaltado // 
+span
+  &.r-1
+    color: $color-primario
+    font-weight: bold
+  &.r-2
+    color: $color-secundario
+    font-weight: bold
+  &.r-3
+    color: $color-acento-contenido
+    font-weight: bold
+  &.r-4
+    color: $color-acento-botones
+    font-weight: bold
+  &.f-1
+    background-color: rgba($color-primario, 0.3)
+  &.f-2
+    background-color: rgba($color-secundario, 0.3)
+  &.f-3
+    background-color: rgba($color-acento-contenido, 0.3 )
+  &.f-4
+    background-color: rgba($color-acento-botones, 0.3)
+// -------------------------------// 
+// Tarjteta up // 
+.tarjeta-up
+  position: relative
+  overflow: hidden
+  width: 100%
+  border-radius: 20px
+  &__content
+    border-radius: 10px 10px 0px 0px 
+    position: absolute
+    width: 100%
+    height: 55%
+    bottom: -26%
+    left: 0
+    transition: bottom 0.5s ease-in-out, height 0.5s ease-in-out
+    p
+      opacity: 0
+      transition: opacity 0.3s ease-in-out
+    p, h1, h2, h3, h4, h5, h6
+      color: white !important
+    &.color-primario
+      background-color: $color-primario
+    &.color-secundario
+      background-color: $color-secundario
+    &.color-acento-contenido
+      background-color: $color-acento-contenido
+    &.color-acento-botones
+      background-color: $color-acento-botones
+  &:hover
+    .tarjeta-up__content
+      bottom: 0
+      height: 80%
+      p
+        opacity: 1
+// tarjeta slide arriba // 
+.tarjeta-slide
+  &-arriba
+    position: relative
+    overflow: hidden
+    width: 100%
+    &__img
+      position: absolute
+      width: 100%
+      top: 0
+      left: 0
+      transition: transform 0.3s ease-in-out
+      transform: translateY(-100%)
+    &:hover
+      .tarjeta-slide-arriba__img
+        transform: translateY(0)
+  &-abajo
+    position: relative
+    overflow: hidden
+    width: 100%
+    &__img
+      position: absolute
+      width: 100%
+      bottom: 0
+      left: 0
+      transition: transform 0.3s ease-in-out
+      transform: translateY(100%)
+    &:hover
+      .tarjeta-slide-abajo__img
+        transform: translateY(0)
+  &-derecha
+    position: relative
+    overflow: hidden
+    width: 100%
+    &__img
+      position: absolute
+      width: 100%
+      bottom: 0
+      left: 0
+      transition: transform 0.3s ease-in-out
+      transform: translateX(-100%)
+    &:hover
+      .tarjeta-slide-derecha__img
+        transform: translateY(0)
+  &-izquierda
+    position: relative
+    overflow: hidden
+    width: 100%
+    &__img
+      position: absolute
+      width: 100%
+      bottom: 0
+      right: 0
+      transition: transform 0.3s ease-in-out
+      transform: translateX(100%)
+    &:hover
+      .tarjeta-slide-izquierda__img
+        transform: translateY(0)
+.titulo.rounded-pill
+  &.color-primario
+    background-color: $color-primario
+  &.color-secundario
+    background-color: $color-secundario
+  &.color-acento-contenido
+    background-color: $color-acento-contenido
+  &.color-acento-botones
+    background-color: $color-acento-botones
+// Hover bgs ////R
+.hbg
+  &--1
+    transition: background-color 0.3s ease-in-out
+    &:hover
+      background-color: $color-primario  !important
+      h1, h2, h3, h4, h5, h6, p
+        color: white !important
+  &--2
+    transition: background-color 0.3s ease-in-out
+    &:hover
+      background-color: $color-secundario !important
+  &--3
+    transition: background-color 0.3s ease-in-out
+    &:hover
+      background-color: $color-acento-contenido !important
+  &--4
+    transition: background-color 0.3s ease-in-out
+    &:hover
+      background-color: $color-acento-botones !important
+
