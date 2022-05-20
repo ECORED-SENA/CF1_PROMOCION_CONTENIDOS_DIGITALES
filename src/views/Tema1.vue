@@ -395,23 +395,86 @@
               h5 Tabla 1
               span Variables de segmentación demográficasubtitulo
             //todo PENDIENTE COMPLETAR TABLA 
-            .tabla-a.color-acento-botones.mb-5
+            .tabla-1.mb-5
               table
-                caption Leyenda de la tabla
                 thead
                   tr
-                    th Encabezado 1
-                    th Encabezado 2
-                    th Encabezado 3
-                    th Encabezado 4
-                    th Encabezado 5
+                    th Variable
+                    th Categorías.
                 tbody
                   tr
-                    td Celda 1
-                    td Celda 2
-                    td Celda 3
-                    td Celda 4
-                    td Celda 5
+                    td Tipo de población
+                    td Urbana, rural, mixta.
+                  tr
+                    td Edad
+                    td Rangos de edades entre la niñez, juventud, adultos, adultos mayores.
+                  tr
+                    td Sexo
+                    td Hombre o mujer.
+                  tr
+                    td Género
+                    td Masculino, femenino, LGTBIQ+, otro.
+                  tr
+                    td Orientación sexual
+                    td Heterosexual, homosexual, bisexual, asexual o pansexual.
+                  tr
+                    td Clase social
+                    td Baja inferior, baja superior, media baja, media intermedia, media alta, alta inferior, alta intermedia, alta superior.
+                  tr
+                    td Estado civil
+                    td Soltero(a), casado(a), unión libre, divorciado(a), viudo(a).
+                  tr
+                    td Tamaño de la familia
+                    td Rangos de número de integrantes de la familia: 2 a 3, 4 a 6, 7 a 10, etc.
+                  tr
+                    td Ciclo de vida familiar
+                    td Etapa de soltería: personas jóvenes sin vínculos matrimoniales.
+                      br
+                      br
+                      |Parejas casadas jóvenes sin hijos.
+                      br
+                      br
+                      |Parejas casadas jóvenes con hijos (nido lleno).
+                      br
+                      br
+                      |Parejas casadas con hijos independientes (nido vacío).
+                      br
+                      br
+                      |Padres solteros: personas jóvenes o de edad madura con hijos dependientes.
+                      br
+                      br
+                      |Viudos solitarios.
+
+                  tr
+                    td Ingresos
+                    td Cantidad de ingresos anuales.
+                  tr
+                    td Patrón de gasto
+                    td La forma en que cada familia gasta dinero.
+                  tr
+                    td Nivel educativo
+                    td Preescolar, primaria, secundaria sin finalizar (básica), secundaria finalizada (bachiller), técnico, tecnólogo, universitario, postgrado.
+                  tr
+                    td Ocupación
+                    td Definir a qué se dedica el usuario. ¿En qué labora? ¿En qué se desempeña?
+                  tr
+                    td Religión
+                    td Católico, cristiano, protestante, judío, budista, etc.
+                  tr
+                    td Grupos étnicos
+                    td Mestizos.
+                      br
+                      |Caucásicos.
+                      br
+                      |Afrocolombianos (palenqueros, raizales).
+                      br
+                      |Indígenas.
+                      br
+                      |Otros grupos.
+
+                  tr
+                    td Nacionalidad
+                    td País de origen o de mercado destino.
         p.text-center.mb-5
           span.r-1 Variables de segmentación conductual
         SlyderF.align-items-start.mb-5(columnas="col-lg-6 col-xl-4")
