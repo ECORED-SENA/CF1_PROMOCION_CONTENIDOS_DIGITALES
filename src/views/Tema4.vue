@@ -97,8 +97,183 @@
       .col-lg-3
         .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4.m-auto
           .text-white: h4.mb-0.me-3 Paso 1: Selección de variables
-
-
+    p.text-center.mb-5 Es necesario seleccionar las variables pertinentes para el diseño del diagnóstico. Algunas de las variables más importantes son:
+    .row.mb-3
+      .col-lg-4.mb-3.mb-lg-0
+        .tarjeta.bg-verde.hbg--2.rounded-1.h-100.p-5
+          .d-flex.align-items-center.mb-4
+            img(src="@/assets/curso/temas/102.svg" style="width: 70px").me-2
+            p.fw-bold.mb-0 Modelo americano sobre el índice de satisfacción del consumidor
+          p Satisfacción del cliente.
+            br
+            |Expectativas del cliente.
+            br
+            |Calidad percibida.
+      .col-lg-4.mb-3.mb-lg-0
+        .tarjeta.bg-verde.hbg--2.rounded-1.h-100.p-5
+          .d-flex.align-items-center.mb-4
+            img(src="@/assets/curso/temas/103.svg" style="width: 70px").me-2
+            p.fw-bold.mb-0 Modelo europeo sobre el índice de satisfacción del consumidor
+          p Satisfacción del cliente.
+            br
+            |Expectativas del cliente.
+            br
+            |Calidad percibida.
+            br
+            |Imagen corporativa.
+      .col-lg-4.mb-3.mb-lg-0
+        .tarjeta.bg-verde.hbg--2.rounded-1.h-100.p-5
+          .d-flex.align-items-center.mb-4
+            img(src="@/assets/curso/temas/104.svg" style="width: 70px").me-2
+            p.fw-bold.mb-0 Modelo SERVQUAL
+          p Comunicación de boca en boca (wom).
+            br
+            |Necesidades personales.
+            br
+            |Experiencias pasadas.
+            br
+            |Elementos tangibles.
+            br
+            |Seguridad.
+            br
+            |Capacidad de respuesta.
+            br
+            |Empatía.
+            br
+            |Fiabilidad.
+    .row.mb-3
+      .col-lg-4.mb-3.mb-lg-0
+        .tarjeta.bg-verde.hbg--2.rounded-1.h-100.p-5
+          .d-flex.align-items-center.mb-4
+            img(src="@/assets/curso/temas/105.svg" style="width: 70px").me-2
+            p.fw-bold.mb-0 Modelo de Bustamante 
+          p Satisfacción y confianza.
+      .col-lg-4.mb-3.mb-lg-0
+        .tarjeta.bg-verde.hbg--2.rounded-1.h-100.p-5
+          .d-flex.align-items-center.mb-4
+            img(src="@/assets/curso/temas/106.svg" style="width: 70px").me-2
+            p.fw-bold.mb-0 Modelo de Sanz et al
+          p Actitud y confianza.
+      .col-lg-4.mb-3.mb-lg-0
+        .tarjeta.bg-verde.hbg--2.rounded-1.h-100.p-5
+          .d-flex.align-items-center.mb-4
+            img(src="@/assets/curso/temas/107.svg" style="width: 70px").me-2
+            p.fw-bold.mb-0 Modelo de Reza et al
+          p Experiencia, actitud.
+            br
+            |Servicio percibido.
+            br
+            |Recompra, emociones.
+            br
+            |Satisfacción y confianza.
+    .tarjeta.bg-white.p-5.mb-5
+      .row.justify-content-center.mb-5
+        .col-lg-3
+          .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4.m-auto
+            .text-white: h4.mb-0.me-3 Paso 2: Clasificación de variables
+      p.text-center.mb-5 Para clasificar las variables seleccionadas, puede usarse como base el proceso de servicio, antes, durante y después.
+      LineaTiempoE.color-acento-contenido
+        .row(titulo="Antes del servicio" subtitulo="")
+          .col-lg-3
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          .col-lg-9.mb-4.mb-lg-0
+            ul.lista-ul--color
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Reputación de marca.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Comunicación de boca en boca. (wom)
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Emociones.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Experiencia previa.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Imagen corporativa.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Expectativas del cliente.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Necesidades personales.
+        .row(titulo="Durante el servicio" subtitulo="")
+          .col-lg-3
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          .col-lg-9.mb-4.mb-lg-0
+            ul.lista-ul--color
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Experiencia nueva.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Conocimiento.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Actitud.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Elementos tangibles.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Seguridad.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Capacidad de respuesta.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Fiabilidad.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Empatía.
+        .row(titulo="Después del servicio" subtitulo="")
+          .col-lg-3
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          .col-lg-9.mb-4.mb-lg-0
+            ul.lista-ul--color
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Confianza.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Satisfacción.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Experiencia positiva o negativa.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Servicio percibido.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Recompra.
+              li.mb-2
+                i.fas.fa-dot-circle.fa-xs
+                | Confianza.
+    .row.justify-content-center.mb-5
+        .col-lg-3
+          .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4.m-auto
+            .text-white: h4.mb-0.me-3 Paso 3: Implementación del diagnóstico
+    p.mb-5 La aplicación del diagnóstico es un sistema que integra las tres fases del proceso: antes, durante y después; donde la primera y tercera fases generan un ciclo debido a la medición constante de la satisfacción, experiencias positivas, ocasiones, recompra y construcción de confianza. Para su desarrollo, se puede aplicar la técnica del focus group, integrando diferentes actores de la empresa relacionados con el cliente.
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 3
+      span Modelo de diagnóstico de clientes para una empresa
+    figure.mb-5
+      img(src='@/assets/curso/temas/108.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        p Aunque este modelo es solo una propuesta, puede servir de base para adaptarlo a cualquier empresa, pequeña, mediana o grande, que busque identificar el estado actual de su relación con el cliente. Todo modelo es susceptible de mejoramiento, teniendo en cuenta que cada organización es diferente, así como sus clientes también lo son.
+        .tarjeta.bg-3-claro.p-4.d-flex.align-items-center
+          img(src='@/assets/curso/temas/37.svg' style='width: 115px').me-3
+          p.mb-0(data-aos='fade') Para ampliar el conocimiento acerca del diseño y aplicación de diagnósticos empresariales con enfoque hacia el cliente, puede leer el documento 
+            span.r-1 Diseño de un modelo de diagnóstico con enfoque en el cliente para empresas de servicios, 
+            | que se encuentra en el material complementario. 
+      .col-lg-4.col-8
+        img.rounded-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/109.jpg')
 
 
 
@@ -149,7 +324,7 @@ export default {
 
 <style lang="sass">
 .bg-tema4
-  background-image: url(../assets/curso/temas/bg-tema3.png)
+  background-image: url(../assets/curso/temas/bg-tema4.png)
   background-repeat: no-repeat
   background-size: cover
   background-position: start
@@ -171,4 +346,6 @@ export default {
 .cajon-editado
   .bloque-texto-d:before
     opacity: .2 !important
+.bg-verde
+  background-color: #b0c8cb
 </style>
