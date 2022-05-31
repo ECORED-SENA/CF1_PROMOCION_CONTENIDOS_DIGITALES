@@ -129,15 +129,16 @@
       .row.justify-content-center.mb-5(data-aos='zoom-in')
         .col-lg-5.col-8.mb-3.mb-lg-0
           .tarjeta.tarjeta-slide-arriba.color-secundario.p-5
+            .tarjeta-slide-arriba__img
               img(src='@/assets/curso/temas/83.png')
             img(src='@/assets/curso/temas/81.svg' style='width: 99px').m-auto.mb-3
             .text-white.text-center
-              h5 Perfil de cliente
-              p Puede ser una empresa o persona.
-                br
-                |Los clientes son de una empresa o consumen varios productos comunes.
-                br
-                |Tienen en común los productos.
+                h5 Perfil de cliente
+                p Puede ser una empresa o persona.
+                  br
+                  |Los clientes son de una empresa o consumen varios productos comunes.
+                  br
+                  |Tienen en común los productos.
         .col-lg-5.col-8.mb-3.mb-lg-0
           .tarjeta.tarjeta-slide-arriba.color-secundario.p-5
             .tarjeta-slide-arriba__img
