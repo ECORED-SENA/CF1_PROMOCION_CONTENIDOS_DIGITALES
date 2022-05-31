@@ -10,6 +10,7 @@
       .row.p-lg-5
         .col-xl-6
           p(data-aos='fade') Luego de segmentar los públicos potenciales, es importante investigar las características del mercado donde se encuentra ubicado ese grupo de clientes. Para ello, se utiliza la investigación de mercados, una actividad que permite obtener información del sector para una correcta toma de decisiones al momento de implementar acciones de marketing. 
+    Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1  Concepto de investigación de mercados
     .row.justify-content-center.mb-5
@@ -76,7 +77,7 @@
         p.mb-5 Se denomina investigación de mercados cuantitativa a aquella que busca obtener información acerca de la población objeto o público objetivo. Los datos obtenidos como resultado de la investigación se pueden analizar con modelos matemáticos o estadísticos, entre otras ayudas técnicas.
 
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-10.mb-5.mb-lg-0
         .tarjeta--container.row.mb-5(data-aos='zoom-in').box-shadow
           .col-md.tarjeta.bg-1-claro.p-5
             .row.mb-4
@@ -207,20 +208,20 @@
       span.r-1 Observación indirecta: 
       | aquí, el investigador recolecta la información a partir de fuentes secundarias, como bases de datos, documentación digital, tesis de grados, entrevistas realizadas, entre otros. La observación indirecta se caracteriza por:
     .row.justify-content-center.mb-5(data-aos='zoom-in')
-      .col-lg-3.col-8
-        .card-fondo--0.p-5.h-100
-      .col-lg-3.col-8
-        .card-fondo--1.p-5.h-100
+      .col-lg-3.mb-3.mb-lg-0
+        .card-fondo--0.p-5.h-100.mb-3.mb-lg-0
+      .col-lg-3.mb-3.mb-lg-0
+        .card-fondo--1.p-5.h-100.mb-3.mb-lg-0(style='height: 400px ')
           .tarjeta.bg-white.d-flex.align-items-center.text-center.p-4.h-100
             p.d-flex.m-auto Se basa en fuentes 
               br
               |secundarias.
-      .col-lg-3.col-8
-        .card-fondo--2.p-5.h-100
+      .col-lg-3.mb-3.mb-lg-0
+        .card-fondo--2.p-5.h-100.mb-3.mb-lg-0
           .tarjeta.bg-white.d-flex.align-items-center.text-center.p-4.h-100
             p.d-flex.m-auto Los datos obtenidos son esencialmente cualitativos.
-      .col-lg-3.col-8
-        .card-fondo--3.p-5.h-100
+      .col-lg-3.mb-3.mb-lg-0
+        .card-fondo--3.p-5.h-100.mb-3.mb-lg-0
           .tarjeta.bg-white.d-flex.align-items-center.text-center.p-4.h-100
             p.d-flex.m-auto No es intrusiva porque no se interactúa de forma directa con la investigación.
     .row.mb-3.justify-content-center
@@ -619,7 +620,7 @@ export default {
 
 <style lang="sass">
 .bg-tema2
-  background-image: url(../assets/curso/temas/bg-tema2.png)
+  background-image: url(../assets/curso/temas/bg-tema2.jpg)
   background-repeat: no-repeat
   background-size: 100%
   background-position: start
@@ -643,21 +644,32 @@ export default {
     background-repeat: no-repeat
     background-size: 100% 100%
     background-position: center
+    @media (max-width: $bp-max-lg)
+      height: 300px !important
   &--1
     background-image: url(../assets/curso/temas/card-fondo-1.png)
     background-repeat: no-repeat
     background-size: 100% 100%
     background-position: center
+    @media (max-width: $bp-max-lg)
+      height: 300px !important
+
   &--2
     background-image: url(../assets/curso/temas/card-fondo-2.png)
     background-repeat: no-repeat
     background-size: 100% 100%
     background-position: center
+    @media (max-width: $bp-max-lg)
+      height: 300px !important
+
   &--3
     background-image: url(../assets/curso/temas/card-fondo-3.png)
     background-repeat: no-repeat
     background-size: 100% 100%
     background-position: center
+    @media (max-width: $bp-max-lg)
+      height: 300px !important
+
 .lineaEditada
   .linea-tiempo-d__item__content__slot
     background-color: #c6d9f4
@@ -692,18 +704,19 @@ export default {
   box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1)
   border-radius: 20px
   position: relative
-  @media (max-width: $bp-max-lg)
-    .box-shadow:before
-      content: ''
-      position: absolute
-      top: 5%
-      left: 50%
-      width: 1px
-      height: 90%
-      tranaform: translateY(50%) translateX(50%)
-      background-color: #12263f
-    .tarjeta
-      border-radius: 0px !important
+  &:before
+    content: ''
+    position: absolute
+    top: 5%
+    left: 50%
+    width: 1px
+    height: 90%
+    tranaform: translateY(50%) translateX(50%)
+    background-color: #12263f
+    @media (max-width: $bp-max-md)
+      display: none
+  .tarjeta
+    border-radius: 0px !important
 thead
   th
     font-size: 18px !important

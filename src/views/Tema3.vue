@@ -59,6 +59,7 @@
               tr
                 td Obligación pasajera.
                 td Construye una relación a largo plazo con la empresa productora.
+      Separador
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 3.1  Tipos de clientes
       .d-flex.align-items-start.justify-content-center.mb-5
@@ -127,7 +128,7 @@
     .tarjeta.bg-white.p-5(data-aos='zoom-in')
       p Hoy día, existen diferentes conceptos relacionados con el perfil de cliente o consumidor, uno de ellos es el concepto de buyer persona, el cual se presenta a continuación:
       .row.justify-content-center.mb-5(data-aos='zoom-in')
-        .col-lg-5.col-8.mb-3.mb-lg-0
+        .col-lg-5.mb-3.mb-lg-0
           .tarjeta.tarjeta-slide-arriba.color-secundario.p-5
             .tarjeta-slide-arriba__img
               img(src='@/assets/curso/temas/83.png')
@@ -139,7 +140,7 @@
                   |Los clientes son de una empresa o consumen varios productos comunes.
                   br
                   |Tienen en común los productos.
-        .col-lg-5.col-8.mb-3.mb-lg-0
+        .col-lg-5.mb-3.mb-lg-0
           .tarjeta.tarjeta-slide-arriba.color-secundario.p-5
             .tarjeta-slide-arriba__img
               img(src='@/assets/curso/temas/84.png')
@@ -244,7 +245,7 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 5
       span Perfil de cliente por sistema de calificación
-    .tabla-1.mb-5(data-aos='zoom-in')
+    .tabla-a.tabla-1.mb-5(data-aos='zoom-in')
           table.text-center
             thead
               tr
@@ -316,7 +317,7 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 6
       span Perfil de cliente por segmentación
-    .tabla-1.mb-5(data-aos='zoom-in')
+    .tabla-a.tabla-1.mb-5(data-aos='zoom-in')
           table.text-center
             thead
               tr

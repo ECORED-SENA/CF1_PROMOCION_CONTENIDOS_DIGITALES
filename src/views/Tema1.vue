@@ -198,7 +198,7 @@
           .d-lg-flex.justify-content-center.align-items-center.mb-4.h-100
             p.m-auto Algunos de los criterios más comunes para dividir o segmentar el mercado dependen del tipo de mercado al que se quiere llegar. Resumiendo, los tipos de mercado vistos anteriormente se pueden agrupar en dos grandes sectores: los mercados de consumo final y los mercados industriales.
         .col-lg-4.col-8.mb-3.mb-lg-0
-          .tarjeta.tarjeta-slide-arriba.color-secundario.p-5
+          .tarjeta.tarjeta-slide-arriba.color-secundario.p-5.h-100
             .tarjeta-slide-arriba__img
               img(src='@/assets/curso/temas/17.jpg')
             img(src='@/assets/curso/temas/16.svg' style='width: 99px').m-auto.mb-3
@@ -206,7 +206,7 @@
               h5 Mercado de consumo final
               p Segmenta a consumidores finales. <br>Compra detallada de un producto.
         .col-lg-4.col-8.mb-3.mb-lg-0
-          .tarjeta.tarjeta-slide-arriba.color-secundario.p-5
+          .tarjeta.tarjeta-slide-arriba.color-secundario.p-5.h-100
             .tarjeta-slide-arriba__img
               img(src='@/assets/curso/temas/18.jpg')
             img(src='@/assets/curso/temas/19.svg' style='width: 99px').m-auto.mb-3
@@ -332,9 +332,9 @@
     .tarjeta.bg-white.p-5.mb-5(data-aos='zoom-in')
       p.text-center
         span.r-1 Variables de segmentación psicográfica
-      .row.justify-content-center.align-items-center
-        .col-lg-4.col-8.mb-3.mb-lg-0
-          .tarjeta.tarjeta-slide-derecha.color-secundario.p-5
+      .row.justify-content-center
+        .col-lg-4.mb-3.mb-lg-0
+          .tarjeta.tarjeta-slide-derecha.color-secundario.p-5.h-100
             .tarjeta-slide-derecha__img
               img(src='@/assets/curso/temas/26.jpg')
             .text-white.text-center
@@ -362,8 +362,8 @@
                 |Ambicioso.
                 br
                 |Realizador.
-        .col-lg-4.col-8.mb-3.mb-lg-0
-          .tarjeta.tarjeta-slide-izquierda.color-secundario.p-5
+        .col-lg-4.mb-3.mb-lg-0
+          .tarjeta.tarjeta-slide-izquierda.color-secundario.p-5.h-100
             .tarjeta-slide-izquierda__img
               img(src='@/assets/curso/temas/27.jpg')
             .text-white.text-center
@@ -635,7 +635,7 @@ export default {
   i
     color: $color-primario !important
 .bg-tema1
-  background-image: url(../assets/curso/temas/bg-tema1.png)
+  background-image: url(../assets/curso/temas/bg-tema1.jpg)
   background-repeat: no-repeat
   background-size: 100%
   background-position: start

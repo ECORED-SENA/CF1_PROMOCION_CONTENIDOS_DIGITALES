@@ -10,6 +10,7 @@
       .row.p-lg-5
         .col-xl-6
           p(data-aos='fade')  El diagnóstico puede definirse como una herramienta que ayuda a conocer detalladamente el estado actual de una organización e identificar los problemas que impiden su progreso. Existen diferentes tipos de metodologías para aplicar diagnósticos empresariales, algunos se enfocan en la empresa, otros en los clientes, otros en el área financiera, área de marketing, procesos de producción, entre otros. Lo más importante es obtener una información de la situación real de la empresa que permita tomar buenas decisiones para su proyección y crecimiento.
+    Separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.1  Concepto de diagnóstico de clientes
     .row.mb-3.justify-content-center
