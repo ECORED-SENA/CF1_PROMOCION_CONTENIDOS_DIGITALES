@@ -6,32 +6,33 @@
       .titulo-principal__numero
         span 1
       h1 Mercado
-    .tarjeta.bg-tg-1.p-5.mb-5
+    .tarjeta.bg-tg-1.p-5.mb-5(data-aos='zoom-in')
       .row.p-lg-5
         .col-xl-6
           p(data-aos='fade') El mercado se define como el área geográfica, espacio físico o virtual donde se encuentran los productos, los consumidores, los clientes, los comercios, los canales, es decir, todos los actores relacionados con la comercialización, negociación o intercambio de bienes y servicios. El mercado, en el sentido amplio, congrega a todos los actores que intervienen en diferentes tipos de negociaciones.
+    Separador
     #t_1_1.titulo-segundo.color-acento-contenido 
       h2 1.1  Concepto de mercado
     .row.mb-3.justify-content-center
-      .col-lg-3.mb-3: img(src='@/assets/curso/temas/0.jpg')
+      .col-lg-3.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/temas/0.jpg')
       .col-lg-9.mb-3
         .row
-          .col-lg-4.order-last.order-lg-first: img(src='@/assets/curso/temas/1.jpg')
+          .col-lg-4.order-last.order-lg-first: img(data-aos='zoom-in')(src='@/assets/curso/temas/1.jpg')
           .col-lg-8.mb-3
-            p De acuerdo con 
+            p(data-aos='fade-right') De acuerdo con 
               span.r-1 Kotler y Armstrong (2013)
               |, el mercadeo es un “proceso mediante el cual las empresas crean valor para sus clientes y generan fuertes relaciones con ellos para, en reciprocidad, captar valor de los clientes”. Igualmente, 
               span.r-1 Stanton et al (2007) 
               | manifiestan que el “concepto de marketing hace hincapié en la orientación al cliente y en la coordinación de las actividades de <em>marketing</em> para alcanzar los objetivos de desempeño de la organización”.
-            .cajon.color-primario.bg-1-claro.px-4.py-3
+            .cajon.color-primario.bg-1-claro.px-4.py-3(data-aos='fade-right')
               p.mb-0 Teniendo en cuenta lo anterior, puede decirse que el mercadeo se compone de procesos y acciones que tienen como objetivo conocer las necesidades de los consumidores, para diseñar estrategias que pueden influir en su comportamiento, gustos y necesidades. Las técnicas de <em>marketing</em> buscan generar valor agregado en los clientes para generar experiencias y recordación. 
           .col-lg-12
             p El conocimiento del consumidor da como resultado que la empresa adapte y “conecte” su producto con las necesidades de los clientes, motivar la compra y generar ventas y rentabilidad para la empresa. Esta adecuación da como resultado la estructuración de precios, promociones, encontrar canales de distribución adecuados y promover todos los beneficios y atributos del producto para llegar a nuevos consumidores.
     Separador
-    #t_1_2.titulo-segundo.color-acento-contenido 
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right') 
       h2 1.2  Tipos de mercado
-    p.mb-5 Dependiendo del enfoque en el cual se ubiquen, los mercados, de acuerdo con Fernández (2009), tienen los siguientes tipos:
-    .bg-cards.color-1.mb-5
+    p.mb-5(data-aos='fade-right') Dependiendo del enfoque en el cual se ubiquen, los mercados, de acuerdo con Fernández (2009), tienen los siguientes tipos:
+    .bg-cards.color-1.mb-5(data-aos='fade-up')
       .row.mb-3
         .col-lg-3.mb-3.mb-lg-0
           .tarjetas-circulo.h-100.p-5
@@ -115,17 +116,17 @@
                 | Meta.
       .row.mb-3
         .col-lg-9
-          .cajon.color-acento-contenido.bg-3-claro.p-4
+          .cajon.color-acento-contenido.bg-3-claro.p-4(data-aos='fade-right')
             p.mb-0 Desde otra perspectiva, los mercados están conformados por personas, hogares, organizaciones que solicitan productos; de este modo, las estrategias de <em>marketing</em> deben dirigirse a satisfacer los requerimientos y aspiraciones de los usuarios a partir de sus necesidades. 
         .col-lg-3
-          img.rounded-3(src="@/assets/curso/temas/6.jpg" )
-    p.mb-5 De acuerdo con la relación entre el consumidor, el mercado, la empresa y el área geográfica donde se encuentran los productos, el mercado puede clasificarse en:
+          img.rounded-3(src="@/assets/curso/temas/6.jpg" )(data-aos='zoom-in')
+    p.mb-5(data-aos='fade-right') De acuerdo con la relación entre el consumidor, el mercado, la empresa y el área geográfica donde se encuentran los productos, el mercado puede clasificarse en:
     .row.justify-content-center
       .col-lg-10
-        PasosA.color-acento-contenido.mb-5(tipo="n")
+        PasosA.color-acento-contenido.mb-5(tipo="n")(data-aos='zoom-in')
           .row.align-items-center
             .col-md-7.mb-4.mb-md-0
-              h3 Mercado total
+              h4 Mercado total
               p Está formado por el conjunto de necesidades (satisfechas o no) de una oferta de la empresa. 
                 br
                 |Es el universo de mercado. 
@@ -134,44 +135,42 @@
                 img.rounded-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/7.jpg', alt='Texto que describa la imagen')    
           .row.align-items-center
             .col-md-5
-              figure
+              figure.mb-3.mb-lg-0
                 img.rounded-3(data-aos='zoom-in')(src='@/assets/curso/temas/8.jpg', alt='Texto que describa la imagen')    
             .col-md-7.mb-4.mb-md-0
-              h3 Mercado potencial
+              h4 Mercado potencial
               p Está formado por el conjunto de personas y empresas que necesitan un producto y están en condiciones de adquirirlo.
           .row.align-items-center
             .col-md-7.mb-4.mb-md-0
-              h3 Mercado meta
+              h4 Mercado meta
               p Está formado por segmentos o nichos del mercado potencial y son el foco de las estrategias de <em>marketing</em>.
             .col-md-5
               figure
                 img.rounded-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/9.jpg', alt='Texto que describa la imagen')    
           .row.align-items-center
             .col-md-5
-              figure
+              figure.mb-3.mb-lg-0
                 img.rounded-3(data-aos='zoom-in')(src='@/assets/curso/temas/10.jpg', alt='Texto que describa la imagen')    
             .col-md-7.mb-4.mb-md-0
-              h3 Mercado real
+              h4 Mercado real
               p Está formado por el mercado al que efectivamente se impactó con la estrategia de <em>marketing</em>.
-    p.mb-5 Y desde la perspectiva del canal de distribución, en el cual convergen todos los espacios físicos donde se pueden adquirir los productos y se encuentran todas las marcas, los mercados se clasifican en:
-    .row.justify-content-center.mb-4
+    p.mb-5(data-aos='fade') Y desde la perspectiva del canal de distribución, en el cual convergen todos los espacios físicos donde se pueden adquirir los productos y se encuentran todas las marcas, los mercados se clasifican en:
+    .row.justify-content-center.mb-4(data-aos='zoom-in')
       .col-lg-6.mb-3.mb-lg-0
-        .tarjeta-up
-          img(src="@/assets/curso/temas/11.jpg")
+        .tarjeta-up(:style="{'background-image': `url(${require('@/assets/curso/temas/11.jpg')})`}")
           .tarjeta-up__content.color-primario.p-5
-            h3.mb-4 Mercado mayorista 
+            h4.mb-4 Mercado mayorista 
             p Este tipo de mercado está formado por distribuidores e intermediarios que compran insumos o materias primas en grandes cantidades a los productores, para revenderlos a los comerciantes y consumidores.
       .col-lg-6.mb-3.mb-lg-0
-        .tarjeta-up
-          img(src="@/assets/curso/temas/12.jpg")
+        .tarjeta-up(:style="{'background-image': `url(${require('@/assets/curso/temas/12.jpg')})`}")
           .tarjeta-up__content.color-secundario.p-5
-            h3.mb-4 Mercado minorista
+            h4.mb-4 Mercado minorista
             p También llamado “mercado al menudeo”, está formado por pequeños comercios que compran el surtido a los intermediarios y lo venden directamente al consumidor. Es uno de los formatos más comunes en la región e incluso en los barrios.
     Separador
-    #t_1_3.titulo-segundo.color-acento-contenido
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3  Estrategias para la segmentación de mercados
     .row.mb-3.justify-content-center
-      .col-lg-9
+      .col-lg-9(data-aos='fade-right')
         .row.justify-content-center.g-3
           .col-lg-8.order-lg-1.order-2.mb-3
             p.mb-2 Luego de analizar el mercado, es importante adentrarse en su composición. Para ello, la organización debe identificar a qué clientes o grupo de clientes puede atender mejor y cuál grupo puede convertirse en una opción rentable para vender sus productos. 
@@ -182,24 +181,24 @@
             .d-flex.align-items-center.justify-content-center
               img(src="@/assets/curso/temas/dots.svg" style="width: 84px").me-3.d-lg-block.d-none
               p.mb-0 Un mercado, luego de ser dividido o segmentado, se convierte en un foco de actividad para toda la acción de marketing, que de acuerdo con Porter, son acciones que una empresa aplica para posicionarse en ese grupo de consumidores.
-          .col-lg-4.col-8.order-lg-2.order-1.mb-5.mb-lg-0: img(src='@/assets/curso/temas/13.jpg')
+          .col-lg-4.col-8.order-lg-2.order-1.mb-5.mb-lg-0: img(data-aos='zoom-in')(src='@/assets/curso/temas/13.jpg')
           .col-lg-12.order-3
             .cajon-b.color-primario.abajo-derecha.p-3.mb-5
               p.mb-0 Entonces, se puede complementar que la segmentación divide una porción grande de mercado en subgrupos de clientes con un potencial de compra, y de acuerdo con sus características, pueden requerir un producto diferente o una estrategia de comunicación diferente. De acuerdo con Kerin et al (2014), la segmentación divide a los compradores potenciales en grupos o nichos que tienen intereses comunes y responden de manera similar a una estrategia de marketing. Entre las variables o ítems que se pueden segmentar, se tienen los usos, deseos, capacidad de compra, lugar de residencia, actitudes, hábitos de compra, entre otros.
       .col-lg-3.col-10(data-aos='zoom-in-up'): img(src='@/assets/curso/temas/14.jpg')
     p.text-center.fw-bold.mb-5 Cuando se comienza con un proceso de segmentación, se pueden desarrollar los siguientes pasos:
     .row.justify-content-center.mb-5
-      .col-lg-10: img(src='@/assets/curso/temas/15.svg')
+      .col-lg-10: img(data-aos='zoom-in')(src='@/assets/curso/temas/15.svg')
     .d-flex.align-items-center.justify-content-center.mb-5
       img(src="@/assets/curso/temas/dots.svg" style="width: 84px").me-3.d-lg-block.d-none
       p.mb-0 Al momento de segmentar o dividir el mercado, es posible utilizar varios criterios basados en diversos parámetros de acuerdo con la capacidad de la empresa y las características del producto, lo que hace posible seleccionar diferentes variables que permitan identificar si un segmento es potencialmente viable para convertirse en un foco de la organización, si es posible venderles el producto, o es un segmento de la competencia, qué variables identifican sus gustos, qué variables nos brindan información de la fidelidad del cliente, etc.
-    .bg-cards.color-2.mb-5
+    .bg-cards.color-2.mb-5(data-aos='zoom-in')
       .row.justify-content-center
         .col-lg-4.mb-lg-0
           .d-lg-flex.justify-content-center.align-items-center.mb-4.h-100
             p.m-auto Algunos de los criterios más comunes para dividir o segmentar el mercado dependen del tipo de mercado al que se quiere llegar. Resumiendo, los tipos de mercado vistos anteriormente se pueden agrupar en dos grandes sectores: los mercados de consumo final y los mercados industriales.
         .col-lg-4.col-8.mb-3.mb-lg-0
-          .tarjeta.tarjeta-slide-arriba.color-secundario.p-5(style='height: 400px ')
+          .tarjeta.tarjeta-slide-arriba.color-secundario.p-5
             .tarjeta-slide-arriba__img
               img(src='@/assets/curso/temas/17.jpg')
             img(src='@/assets/curso/temas/16.svg' style='width: 99px').m-auto.mb-3
@@ -207,7 +206,7 @@
               h5 Mercado de consumo final
               p Segmenta a consumidores finales. <br>Compra detallada de un producto.
         .col-lg-4.col-8.mb-3.mb-lg-0
-          .tarjeta.tarjeta-slide-arriba.color-secundario.p-5(style='height: 400px ')
+          .tarjeta.tarjeta-slide-arriba.color-secundario.p-5
             .tarjeta-slide-arriba__img
               img(src='@/assets/curso/temas/18.jpg')
             img(src='@/assets/curso/temas/19.svg' style='width: 99px').m-auto.mb-3
@@ -215,7 +214,7 @@
               h5 Mercado industrial
               p Segmenta a empresas, organizaciones e industrias. <br> Se compran materias primas, insumos, maquinarias, etc.
     .row.justify-content-center.align-items-end.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos='fade-right')
         .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4
           .text-white: h4.mb-0.me-3 Criterios para segmentar mercados de consumidores
         p.mb-3 Cuando se habla de segmentar a los consumidores, es necesario identificar las variables que caractericen a los individuos dentro del mercado. El responsable de marketing debe subdividir el mercado con el fin de agrupar el público.
@@ -304,7 +303,7 @@
       span.r-1 Variables de segmentación geográfica
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        ImagenInfografica.color-acento-botones.mb-5
+        ImagenInfografica.color-acento-botones.mb-5(data-aos='zoom-in')
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/25.svg', alt='Texto que describa la imagen')
@@ -330,12 +329,12 @@
           .tarjeta.bg-verde.p-3.text-center(x="75.7%" y="64%" numero="+")
             .h5.mb-2 Legislación
             p Leyes o normas de acuerdo con la región.
-    .tarjeta.bg-white.p-5.mb-5
+    .tarjeta.bg-white.p-5.mb-5(data-aos='zoom-in')
       p.text-center
         span.r-1 Variables de segmentación psicográfica
       .row.justify-content-center.align-items-center
         .col-lg-4.col-8.mb-3.mb-lg-0
-          .tarjeta.tarjeta-slide-derecha.color-secundario.p-5(style='height: 400px ')
+          .tarjeta.tarjeta-slide-derecha.color-secundario.p-5
             .tarjeta-slide-derecha__img
               img(src='@/assets/curso/temas/26.jpg')
             .text-white.text-center
@@ -364,7 +363,7 @@
                 br
                 |Realizador.
         .col-lg-4.col-8.mb-3.mb-lg-0
-          .tarjeta.tarjeta-slide-izquierda.color-secundario.p-5(style='height: 400px ')
+          .tarjeta.tarjeta-slide-izquierda.color-secundario.p-5
             .tarjeta-slide-izquierda__img
               img(src='@/assets/curso/temas/27.jpg')
             .text-white.text-center
@@ -390,17 +389,17 @@
         p.text-center.mb-5
           span.r-1 Variables de segmentación demográfica
         .row.justify-content-center.mb-5
-          .col-lg-9
+          .col-lg-9.col-12
             .titulo-sexto.color-acento-contenido
               h5 Tabla 1
               span Variables de segmentación demográficasubtitulo
             //todo PENDIENTE COMPLETAR TABLA 
-            .tabla-1.mb-5
+            .tabla-a.tabla-1.mb-5
               table
                 thead
                   tr
-                    th Variable
-                    th Categorías.
+                    th.h4 Variable
+                    th.h4 Categorías.
                 tbody
                   tr
                     td Tipo de población
@@ -477,7 +476,7 @@
                     td País de origen o de mercado destino.
         p.text-center.mb-5
           span.r-1 Variables de segmentación conductual
-        SlyderF.align-items-start.mb-5(columnas="col-lg-6 col-xl-4")
+        SlyderF.align-items-start.mb-5(columnas="col-lg-6 col-xl-4")(data-aos='zoom-in')
           .tarjeta.bg-3-claro.p-4.hbg--1.h-100
             .row.justify-content-center.mb-3
               .col-5
@@ -522,7 +521,7 @@
             p.text-center Tradicional o conservador, impulsivo, escéptico, emocional, indeciso, que solo busca ofertas, etc.
     p.mb-5 La siguiente imagen nos presenta las categorías para la segmentación de mercados.
     .row.justify-content-center.mb-5
-      .col-lg-11
+      .col-lg-11(data-aos='zoom-in')
         .titulo-sexto.color-acento-contenido
           h5 Figura 1
           span Categorías para la segmentación de mercados
@@ -535,11 +534,11 @@
         p.mb-5 Para que un segmento de mercado sea rentable, es decir, que pueda soportar la compra, recompra y recomendación de los productos, se debe cumplir con los siguientes requisitos:
     .row.justify-content-center.mb-5
       .col-lg-10
-        img(src='@/assets/curso/temas/36.svg')
+        img(data-aos='zoom-in')(src='@/assets/curso/temas/36.svg')
     .row.justify-content-center.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos='fade-right')
         p Con el cumplimiento de los criterios anteriores, es posible garantizar que el segmento funcione para una correcta estrategia de marketing. 
-        .tarjeta.bg-3-claro.p-4.d-flex.align-items-center
+        .tarjeta.bg-3-claro.p-4.d-flex.align-items-center.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/37.svg' style='width: 115px').me-3
           p.mb-0 Para ampliar el conocimiento acerca de los conceptos y tendencias de mercadeo, observe el video 
             span.r-1 Tendencias de negocios - Mercadeo y ventas, 
@@ -584,7 +583,7 @@ export default {
   background-image: url(../assets/curso/temas/bg-tg-1.png)
   background-repeat: no-repeat
   background-size: 100% 100%
-  background-position: center
+  background-position: start
   @media (max-width: $bp-max-lg)
     background-image: none
     background-color: $color-neutral-2
@@ -624,7 +623,7 @@ export default {
     font-weight: bold
     p.number
       font-weight: bold
-      color: rgba(220, 234, 251, 0.7) !important
+      color: rgba(220, 234, 251, 0.3) !important
       font-size: 61px
 
   &:hover
@@ -638,7 +637,7 @@ export default {
 .bg-tema1
   background-image: url(../assets/curso/temas/bg-tema1.png)
   background-repeat: no-repeat
-  background-size: 100% 100%
+  background-size: 100%
   background-position: start
 .bg-verde
   background-color: #b0c8cb

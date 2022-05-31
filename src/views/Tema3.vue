@@ -9,16 +9,16 @@
     .row.justify-content-center.mb-5
       .col-lg-4
         p(data-aos='fade') Un cliente es la persona o empresa que adquiere un producto a través de un intercambio económico o monetario. A la persona que adquiere el producto se le denomina “comprador” y a quien hace un uso del producto se le denomina “consumidor”; en algunos casos, el comprador y el consumidor son la misma persona o empresa.
-      .col-8
-        .bg-3-claro.d-flex.align-items-center
-          img(src='@/assets/curso/temas/71.jpg').me-lg-3
+      .col-lg-8(data-aos='zoom-in')
+        .bg-3-claro.d-lg-flex.align-items-center
+          img(src='@/assets/curso/temas/71.jpg').me-lg-3.mb-lg-0.mb-3
           .d-flex.align-items-start.justify-content-center.flex-column.mx-3
             img(src="@/assets/curso/temas/dots-2.svg" style="width: 84px").me-3.d-lg-block.d-none.mb-3
             p En otras ocasiones, el comprador y el consumidor son diferentes, por ejemplo: los padres de familia adquieren los alimentos del bebé (compradores), pero quien los usa o consume es el bebé (consumidor). 
     .row.justify-content-center.mb-5
-      .col-lg-5.col-8
-        img(src='@/assets/curso/temas/72.jpg').me-3
-      .col-lg-7
+      .col-lg-5.col-8(data-aos='zoom-in')
+        img(src='@/assets/curso/temas/72.jpg').me-3.mb-3.mb-lg-0
+      .col-lg-7(data-aos='fade-left')
         p En otras relaciones comerciales más complejas, es posible encontrar que hay una tercera persona que incide en la compra; por ejemplo, en la adquisición de un vehículo, se encuentran:
         ul.lista-ul--color
           li.mb-2
@@ -31,8 +31,8 @@
           li.mb-2
             i.fas.fa-dot-circle.fa-xs
             |  Para comprar el vehículo, la madre y los hijos eligieron el vehículo que más les gusta > Motivadores.
-    p.text-center A continuación, se encuentran algunas de las principales diferencias entre usuario y cliente:
-    .row.justify-content-center.align-items-center.mb-5
+    p.text-center(data-aos='zoom-in') A continuación, se encuentran algunas de las principales diferencias entre usuario y cliente:
+    .row.justify-content-center.align-items-center.mb-5(data-aos='zoom-in')
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Tabla 4
@@ -59,15 +59,15 @@
               tr
                 td Obligación pasajera.
                 td Construye una relación a largo plazo con la empresa productora.
-      #t_3_1.titulo-segundo.color-acento-contenido
+      #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 3.1  Tipos de clientes
       .d-flex.align-items-start.justify-content-center.mb-5
         img(src="@/assets/curso/temas/dots-3.svg" style="width: 84px").me-3.d-lg-block.d-none
         p.mb-0 El cliente es el principal objetivo hacia donde la empresa realiza su mayor esfuerzo; todos los planes y las estrategias de mercadeo deben enfocarse en función de ese cliente. Por tanto, las empresas tienen diferentes compradores o clientes, de acuerdo con el tipo de mercado o segmento en el que compiten, o en el que comercializan sus productos.
       .row.justify-content-center.mb-3
         .col-lg-4.col-8
-          img(data-aos='zoom-in')(src='@/assets/curso/temas/73.jpg')
-        .col-lg-8
+          img(data-aos='zoom-in')(src='@/assets/curso/temas/73.jpg').mb-3.mb-lg-0
+        .col-lg-8(data-aos='fade-left')
           p Entre los principales tipos de clientes, se encuentran los clientes actuales, aquellos (empresas o personas) que compran con frecuencia los productos de la empresa, es el tipo de clientes que genera un aumento significativo en las ventas y son la principal fuente de ingresos. Allí se encuentran:
           TabsA.color-acento-contenido
             .tarjeta.bg-1-claro.p-4(titulo="Clientes activos")
@@ -90,29 +90,45 @@
               h5 Clientes ocasionales
               p Realizan compras con poca frecuencia o única vez.
               img.rounded-3(src="@/assets/curso/temas/78.jpg" )
+    .row.justify-content-center.mb-5
+      .col-lg-7(data-aos='fade-right')
+        p Y luego, se tienen los clientes potenciales, que son aquellos (empresas o personas) que podrían convertirse en clientes frecuentes de la empresa. Hacen parte de los segmentos objetivo o también denominados mercados meta, donde:
+        ul.lista-ul--color
+          li.mb-2
+            i.fas.fa-dot-circle.fa-xs
+            | Su ciclo de compras es frecuente, habitual u ocasional.
+
+          li.mb-2
+            i.fas.fa-dot-circle.fa-xs
+            | Su volumen de compras es alto, promedio (intermedio) o bajo.
+
+          li.mb-2
+            i.fas.fa-dot-circle.fa-xs
+            | Su grado de influencia es alto, regular o familiar.
+      .col-lg-5.col-8
+        img(data-aos='zoom-in')(src='@/assets/curso/temas/110.jpg')
     Separador
-    #t_3_2.titulo-segundo.color-acento-contenido
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.2  Técnicas para elaborar perfiles de clientes
     .row.mb-3.justify-content-center
-      .col-lg-9.mb-3
+      .col-lg-9.mb-3(data-aos='fade-right')
         .row
           .col-lg-8.mb-3
             p Para una organización, es importante conocer sus clientes a profundidad y detalle; para ello, todas las áreas deben estar comprometidas alrededor de la experiencia del cliente para dejarlo satisfecho con el cumplimiento de sus necesidades. Las áreas de marketing, ventas y servicio dependen en gran medida del conocimiento del cliente, para así generar acciones efectivas. 
             .d-flex.align-items-start.justify-content-center
               img(src="@/assets/curso/temas/dots-3.svg" style="width: 84px").me-3.d-lg-block.d-none
               p Cuando se construyen adecuadamente perfiles de los clientes, la venta será más efectiva, más aún si se cuenta con un sistema que permita su creación, análisis y construcción.
-          .col-lg-4.mb-3.mb-lg-0: img(src='@/assets/curso/temas/79.jpg')
+          .col-lg-4.mb-3.mb-lg-0: img(data-aos='zoom-in')(src='@/assets/curso/temas/79.jpg')
           .col-lg-12
             .bg-3-claro.p-3.mb-3
               p.mb-0 El perfil de cliente se puede definir como el conjunto de variables demográficas, geográficas y psicográficas (segmentación), así como hábitos de compra, experiencia crediticia e historial de compras. 
             p Las actividades como la atención, el servicio posventa, el seguimiento y la fidelización funcionan como soporte para fortalecer el relacionamiento con los clientes. Un perfil de consumidor (o de cliente) es una descripción detallada de un público objetivo, es decir, más allá de la segmentación, es tener información real de las interacciones que el consumidor tiene con la empresa, con la finalidad de mejorar las interacciones y hacer un verdadero acompañamiento. 
-      .col-lg-3.mb-3: img(src='@/assets/curso/temas/80.jpg')
-    .tarjeta.bg-white.p-5
+      .col-lg-3.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/temas/80.jpg')
+    .tarjeta.bg-white.p-5(data-aos='zoom-in')
       p Hoy día, existen diferentes conceptos relacionados con el perfil de cliente o consumidor, uno de ellos es el concepto de buyer persona, el cual se presenta a continuación:
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos='zoom-in')
         .col-lg-5.col-8.mb-3.mb-lg-0
-          .tarjeta.tarjeta-slide-arriba.color-secundario.p-5(style='height: 362px ')
-            .tarjeta-slide-arriba__img
+          .tarjeta.tarjeta-slide-arriba.color-secundario.p-5
               img(src='@/assets/curso/temas/83.png')
             img(src='@/assets/curso/temas/81.svg' style='width: 99px').m-auto.mb-3
             .text-white.text-center
@@ -123,7 +139,7 @@
                 br
                 |Tienen en común los productos.
         .col-lg-5.col-8.mb-3.mb-lg-0
-          .tarjeta.tarjeta-slide-arriba.color-secundario.p-5(style='height: 362px ')
+          .tarjeta.tarjeta-slide-arriba.color-secundario.p-5
             .tarjeta-slide-arriba__img
               img(src='@/assets/curso/temas/84.png')
             img(src='@/assets/curso/temas/82.svg' style='width: 99px').m-auto.mb-3
@@ -136,7 +152,7 @@
                 |Tienen en común las personas.
       .row.justify-content-center.mb-5
         .col-lg-4.col-8
-          img.rounded-3(data-aos='zoom-in')(src='@/assets/curso/temas/85.jpg')
+          img.rounded-3(data-aos='zoom-in')(src='@/assets/curso/temas/85.jpg').mb-3.mb-lg-0
         .col-lg-8
           p Un perfil de cliente puede servir para captar información real y válida sobre cómo se están comportando los productos y servicios de la empresa. En un mercado digital, como el actual, el perfil de cliente puede ayudar a:
           ul.lista-ul--color
@@ -224,10 +240,10 @@
     .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4
       .text-white: h4.mb-0.me-3 Perfil de cliente por sistema de calificación
     p.mb-5 Aplica un puntaje entre tanto se cumplan o no determinadas características.
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 5
       span Perfil de cliente por sistema de calificación
-    .tabla-1.mb-5
+    .tabla-1.mb-5(data-aos='zoom-in')
           table.text-center
             thead
               tr
@@ -294,12 +310,12 @@
                 td
                 td 
                 td
-          figcaption.mt-3 Nota. Fuente HubSpot.
+          figcaption.mt-3.fw-normal Nota. Fuente HubSpot.
     p.mb-5 Los clientes también pueden perfilarse de acuerdo con las variables de segmentación:
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 6
       span Perfil de cliente por segmentación
-    .tabla-1.mb-5
+    .tabla-1.mb-5(data-aos='zoom-in')
           table.text-center
             thead
               tr
@@ -336,11 +352,11 @@
                 td Correo electrónico, app de lealtad. 
                 td Correo electrónico, Instagram, Facebook, correo directo.
                 td Correo electrónico, Facebook, Pinterest.
-          figcaption.mt-3 Nota. Fuente HubSpot.
+          figcaption.mt-3.fw-normal Nota. Fuente HubSpot.
     .row.justify-content-center.mb-5
       .col-lg-4.col-8
-        img.rounded-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/94.svg')
-      .col-lg-8
+        img.rounded-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/94.svg').mb-3.mb-lg-0
+      .col-lg-8(data-aos='fade-left')
         p Con esta información disponible, el equipo de marketing de la compañía puede trabajar en el diseño e implementación de campañas efectivas para cada perfil de consumidores.
         .tarjeta.bg-3-claro.p-4.d-flex.align-items-center
           img(src='@/assets/curso/temas/37.svg' style='width: 115px').me-3
@@ -371,6 +387,6 @@ export default {
 .bg-tema3
   background-image: url(../assets/curso/temas/bg-tema3.png)
   background-repeat: no-repeat
-  background-size: cover
+  background-size: 100%
   background-position: start
 </style>

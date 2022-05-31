@@ -6,27 +6,27 @@
       .titulo-principal__numero
         span 2
       h1 Investigación de mercados
-    .tarjeta.bg-tg-2.p-5.mb-5
+    .tarjeta.bg-tg-2.p-5.mb-5(data-aos='zoom-in')
       .row.p-lg-5
         .col-xl-6
           p(data-aos='fade') Luego de segmentar los públicos potenciales, es importante investigar las características del mercado donde se encuentra ubicado ese grupo de clientes. Para ello, se utiliza la investigación de mercados, una actividad que permite obtener información del sector para una correcta toma de decisiones al momento de implementar acciones de marketing. 
-    #t_2_1.titulo-segundo.color-acento-contenido
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1  Concepto de investigación de mercados
     .row.justify-content-center.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos='fade-right')
         p.mb-3 La investigación de mercado es un proceso que aplica la empresa para obtener información del sector mediante la búsqueda y el análisis de datos, bien sea de fuentes primarias o secundarias.
-        .d-flex.align-items-start.justify-content-center.mb-3
+        .d-flex.align-items-start.justify-content-center.mb-5
           img(src="@/assets/curso/temas/dots-2.svg" style="width: 84px").me-3.d-lg-block.d-none
           p.mb-0 En la investigación de mercados, se pueden distinguir dos tipos de investigación: investigación de mercados cualitativa e investigación de mercados cuantitativa.
         div(data-aos='fade') 
-          .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4
+          .titulo.rounded-pill.color-primario.p-2.d-inline-block.my-4
             .text-white: h4.mb-0.me-3 Investigación de mercados cualitativa
           p.mb-5 Se denomina investigación de mercados cualitativa al conjunto de técnicas que se utilizan para obtener una visión general del comportamiento y la percepción de las personas sobre un tema en particular. Según Baez (2009), la investigación cualitativa es 
             span.f-3 “el conjunto de todas las cosas que se hacen para seguir la pista a los mercados y encontrar los rasgos que distinguen a las personas (cliente, consumidor, organización…) y a las cosas (productos, bienes, servicios, sectores de actividad), sus propiedades y atributos, sean estos naturales y/o adquiridos”.
-      .col-lg-5: img.rounded-3(src='@/assets/curso/temas/39.jpg')
+      .col-lg-5: img.rounded-3(data-aos='zoom-in')(src='@/assets/curso/temas/39.jpg')
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta--container.row.mb-5
+        .tarjeta--container.row.mb-5(data-aos='zoom-in').box-shadow
           .col-md.tarjeta.bg-1-claro.p-5
             .row.mb-4
               .col-4
@@ -67,17 +67,17 @@
               li.mb-3
                 i.fas.fa-dot-circle.fa-xs
                 | Hay demasiado involucramiento por parte del investigador.
-    p.mb-5 Para concretar, la investigación cualitativa pretende profundizar en los conceptos y valores, detectar motivadores y valorar las reacciones, y para su ejecución, requiere un soporte de psicología.
+    p.mb-5(data-aos='fade-right') Para concretar, la investigación cualitativa pretende profundizar en los conceptos y valores, detectar motivadores y valorar las reacciones, y para su ejecución, requiere un soporte de psicología.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-3.mb-lg-0: img.rounded-3(data-aos='zoom-in')(src='@/assets/curso/temas/42.jpg')
-      .col-lg-5
+      .col-lg-5(data-aos='fade-left')
         .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4
           .text-white: h4.mb-0.me-3 Investigación de mercados cuantitativa
         p.mb-5 Se denomina investigación de mercados cuantitativa a aquella que busca obtener información acerca de la población objeto o público objetivo. Los datos obtenidos como resultado de la investigación se pueden analizar con modelos matemáticos o estadísticos, entre otras ayudas técnicas.
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta--container.row.mb-5
+        .tarjeta--container.row.mb-5(data-aos='zoom-in').box-shadow
           .col-md.tarjeta.bg-1-claro.p-5
             .row.mb-4
               .col-4
@@ -117,17 +117,17 @@
                 | Debe estudiarse una amplia porción de la población.
     p.mb-5 Para sintetizar, la investigación cuantitativa pretende cuantificar, establecer proporciones y diferencias e importancia relativa, y para su ejecución, requiere un soporte estadístico.
     Separador
-    #t_2_2.titulo-segundo.color-acento-contenido
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.2  Técnicas básicas para la investigación de mercados
     .row.mb-3.justify-content-center
       .col-lg-9.mb-3
         .row
-          .col-lg-8.mb-3.order-2.order-lg-1
+          .col-lg-8.mb-3.order-2.order-lg-1(data-aos='fade-right')
             .cajon-b.color-primario.pe-3.mb-3
               p.mb-0 Cuando se realiza una investigación, es necesario obtener una información del mercado y definir la manera como se obtendrá esa información, eso se denomina recolección de datos. Una vez definido el método de recolección, se procede a realizar el trabajo de campo.
             p El trabajo de campo requiere varias actividades previas para su ejecución. Primero, requiere la identificación, formación y seguimiento de las personas que recopilan los datos, selección adecuada de la modalidad (presencial o virtual) y la técnica para la obtención de los datos, bien sea la observación, entrevistas telefónicas, entrevistas personales, por correo o electrónicas, encuestas, entre otras. 
             
-          .col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0: img(src='@/assets/curso/temas/45.jpg')
+          .col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0: img(data-aos='zoom-in')(src='@/assets/curso/temas/45.jpg')
           .col-lg-12.order-3
             .cajon-editado
               .bloque-texto-d.color-primario.p-4
@@ -140,21 +140,21 @@
       .col-lg-3.mb-3: img(src='@/assets/curso/temas/46.jpg')
     .row.justify-content-center.mb-3
       .col-lg-5.mb-3.mb-lg-0: img.rounded-3(data-aos='zoom-in')(src='@/assets/curso/temas/47.jpg')
-      .col-lg-7
+      .col-lg-7(data-aos='fade-left')
         .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-1
           .text-white: h4.mb-0.me-3 La observación
         p.mb-2 La observación consiste en obtener información del entorno, objeto o hecho en el cual se enfoca la investigación, mediante el registro de datos para su diagnóstico. En esta técnica, el investigador hace parte de la situación observada, persona o grupo de personas analizando sus comportamientos.
           br
           br
           | Hay dos tipos de observaciones: la directa e indirecta.
-    p.mb-5 
+    p.mb-5(data-aos='fade-left') 
       span.r-1 Observación directa: 
       |aquí, el investigador se encuentra en el lugar de los hechos; si realiza algún tipo de intervención, puede alterar la situación o los datos. La observación directa se caracteriza por:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos='zoom-in')
       .col-lg-3.col-8.mb-3.mb-lg-0
         .tarjeta.tarjeta-slide-arriba.bg-3-claro.p-5(style='height: 295px ')
             .tarjeta-slide-arriba__img
-              img(src='@/assets/curso/temas/48.svg')
+              img(data-aos='zoom-in')(src='@/assets/curso/temas/48.png')
             .d-inline.align-items-center
             .text-center
               h5
@@ -163,7 +163,7 @@
       .col-lg-3.col-8.mb-3.mb-lg-0
         .tarjeta.tarjeta-slide-arriba.bg-3-claro.p-5(style='height: 295px ')
           .tarjeta-slide-arriba__img
-            img(src='@/assets/curso/temas/49.svg')
+            img(src='@/assets/curso/temas/49.png')
           .d-flex.align-items-center
             .text-center.m-auto
               h5
@@ -172,7 +172,7 @@
       .col-lg-3.col-8.mb-3.mb-lg-0
         .tarjeta.tarjeta-slide-arriba.bg-3-claro.p-5(style='height: 295px ')
           .tarjeta-slide-arriba__img
-            img(src='@/assets/curso/temas/50.svg')
+            img(src='@/assets/curso/temas/50.png')
           .d-flex.align-items-center
             .text-center
               h5
@@ -181,7 +181,7 @@
       .col-lg-3.col-8.mb-3.mb-lg-0
         .tarjeta.tarjeta-slide-arriba.bg-3-claro.p-5(style='height: 295px ')
           .tarjeta-slide-arriba__img
-            img(src='@/assets/curso/temas/51.svg')
+            img(src='@/assets/curso/temas/51.png')
           .d-flex.align-items-center
             .text-center
               h5
@@ -189,7 +189,7 @@
               p En este método, los resultados pueden ser tanto reales como condicionados.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.mb-3.mb-lg-0: img.rounded-3(data-aos='zoom-in')(src='@/assets/curso/temas/52.jpg')
-      .col-lg-7
+      .col-lg-7(data-aos='fade-right')
         p.mb-3 La observación directa puede ser:
         ul.lista-ul--color
           li.mb-3
@@ -203,10 +203,10 @@
             p.mb-2
               span.r-1 Observación no participante. 
               | El investigador no interactúa con la población objeto de investigación.
-    p.mb-5 
+    p.mb-5(data-aos='fade-right') 
       span.r-1 Observación indirecta: 
       | aquí, el investigador recolecta la información a partir de fuentes secundarias, como bases de datos, documentación digital, tesis de grados, entrevistas realizadas, entre otros. La observación indirecta se caracteriza por:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos='zoom-in')
       .col-lg-3.col-8
         .card-fondo--0.p-5.h-100
       .col-lg-3.col-8
@@ -226,21 +226,21 @@
     .row.mb-3.justify-content-center
       .col-lg-9.mb-3
         .row
-          .col-lg-8.mb-3.order-2.order-lg-1
+          .col-lg-8.mb-3.order-2.order-lg-1(data-aos='fade-right')
             .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4
               .text-white: h4.mb-0.me-3 La entrevista
             .cajon-b.color-primario.pe-3.mb-3
               p.mb-0 La entrevista es una técnica de investigación muy utilizada en la investigación cualitativa para obtener información. Esta consiste en una conversación realizada entre dos o más personas por medio de preguntas que pueden ser abiertas o cerradas. Para desarrollar una entrevista adecuadamente, se elabora un guion que permite orientar la conversación hacia la obtención de la información. La entrevista puede ser presencial, en la cual el entrevistador comparte el mismo espacio con el entrevistado; telefónica o en línea, cuando se realiza a través de una plataforma como Zoom, Teams o Skype, entre otras.. 
-          .col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0: img(src='@/assets/curso/temas/53.jpg')
+          .col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0: img(data-aos='zoom-in')(src='@/assets/curso/temas/53.jpg')
           .col-lg-12.order-3
             p Usualmente, en la entrevista se presentan preguntas abiertas, para que la persona entrevistada brinde la mayor cantidad de información posible, mientras que en las preguntas cerradas, las respuestas son limitadas y no hay lugar para alternativas; por ejemplo, en la pregunta cerrada: 
               span.f-3 ¿usted considera que el servicio fue bueno o malo?, 
               | solo hay dos alternativas de respuesta; mientras que si se complementa la pregunta con: 
               span.f-3 ¿usted considera que el servicio fue bueno o malo? ¿Por qué?, 
               |la pregunta abierta permitirá que el entrevistado amplíe los datos.
-      .col-lg-3.mb-3: img(src='@/assets/curso/temas/54.jpg')
+      .col-lg-3.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/temas/54.jpg')
     p.mb-5 Las entrevistas, según la investigación, se clasifican en tres tipos, de acuerdo con Díaz et al. (2013): 
-    figure
+    figure(data-aos='zoom-in').mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4
@@ -249,7 +249,7 @@
     .row.justify-content-center.mb-5
       .col-lg-4.col-8.mb-3.mb-lg-0: img.rounded-3(data-aos='zoom-in')(src='@/assets/curso/temas/55.jpg')
       .col-lg-8
-        LineaTiempoD.lineaEditada
+        LineaTiempoD.lineaEditada(data-aos='zoom-in')
           p.text-small(numero="1" titulo="Pregunta abierta") ¿Cómo le pareció el diseño del producto?
 
           p.text-small(numero="2" titulo="Pregunta dicotómica") El producto le pareció a. Bueno o b. Malo
@@ -280,7 +280,7 @@
             br
             |__ Color
     p.text-center Las encuestas pueden clasificarse según su alcance, tamaño de la muestra o método de recopilación de datos en: 
-    .row.mb-5
+    .row.mb-5(data-aos='zoom-in')
       .col-lg-3.mb-4
         .tarjeta.tarjeta-avatar-slide.bg-verde.p-4.h-100
           .tarjeta-avatar-slide__img.mb-4
@@ -318,12 +318,12 @@
               br
             | Cuando el entrevistador realiza las preguntas directamente al entrevistado y apunta las respuestas.
     .row.justify-content-center.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos='fade-right')
         .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4
           .text-white: h4.mb-0.me-3.fst-italic El focus group
         p El <em>focus group</em>, o grupo de enfoque, es un método de investigación cualitativa que se desarrolla mediante un encuentro presencial o virtual con un grupo de personas, y permite conocer de forma rápida lo que piensan los participantes del tema objeto de investigación, por lo general, estudios de mercado. 
           span.r-1 El focus group se caracteriza por:
-        #carouselExampleIndicators.carousel.slide(data-bs-ride='carousel')
+        #carouselExampleIndicators.carousel.slide(data-bs-ride='carousel').mb-3.mb-lg-0
           .carousel-indicators
             button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
             button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
@@ -356,9 +356,9 @@
             span.visually-hidden Next
       .col-lg-4.col-8: img.rounded-3(data-aos='zoom-in')(src='@/assets/curso/temas/64.jpg') 
     Separador
-    #t_2_2.titulo-segundo.color-acento-contenido
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.3  Instrumentos de recolección de datos e información
-    .tarjeta.bg-1-claro2.p-5.mb-5
+    .tarjeta.bg-1-claro2.p-5.mb-5(data-aos='zoom-in')
       .row.justify-content-center.align-items-center
         .col-lg-8
           p Los instrumentos de recolección de datos se pueden definir como aquellas plataformas o documentos que permiten organizar la información como resultado de la investigación. Entre los instrumentos más utilizados se encuentran el cuestionario y las escalas de actitudes. Cada uno de ellos se encuentra compuesto de preguntas con respecto a las variables objeto de medición. Por ejemplo, si se quiere segmentar un mercado, las preguntas se orientan a su clasificación en edad, sexo, estrato socioeconómico, entre otras. 
@@ -366,8 +366,8 @@
           img(data-aos='zoom-in')(src='@/assets/curso/temas/65.jpg')
     .row.justify-content-center.mb-5
       .col-lg-4.col-8
-        img.rounded-3(data-aos='zoom-in')(src='@/assets/curso/temas/66.jpg')
-      .col-lg-8
+        img.rounded-3(data-aos='zoom-in')(src='@/assets/curso/temas/66.jpg').mb-3.mb-lg-0
+      .col-lg-8(data-aos='fade-left')
         .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4
           .text-white: h4.mb-0.me-3.fst-italic Los cuestionarios
         p Los cuestionarios contienen un conjunto de preguntas para obtener, procesar y analizar información de la muestra o segmento de la población seleccionada. Este instrumento se utiliza mucho en la investigación cuantitativa de mercados, pues los datos pueden ser exactos, para una correcta medición.
@@ -400,12 +400,12 @@
               span 6
             | Realizar la encuesta.
     p.mb-5 La pregunta juega un papel importante para el cuestionario, su correcta elaboración garantizará que la respuesta permita obtener la información correcta. Entre los diferentes tipos de preguntas, tenemos:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos='zoom-in')
       .col-lg-11
         .titulo-sexto.color-acento-contenido
           h5 Figura 2
           span Tipos de preguntas
-        img(src='@/assets/curso/temas/67.svg')
+        img(data-aos='zoom-in')(src='@/assets/curso/temas/67.svg')
     .divisor.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-9
@@ -420,18 +420,18 @@
             .anexo__texto.bg-whiter
               p Anexo. plantilla tipo preguntas
     .row.mb-3.justify-content-center
-      .col-lg-3.order-last.order-first.mb-3: img(src='@/assets/curso/temas/68.jpg')
+      .col-lg-3.order-last.order-first.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/temas/68.jpg')
       .col-lg-9.order-first.order-lg-last.mb-3
         .row
-          .col-lg-4.order-2.order-lg-1.mb-3.mb-lg-0: img(src='@/assets/curso/temas/69.jpg')
-          .col-lg-8.mb-3.order-1.order-lg-2
+          .col-lg-4.order-2.order-lg-1.mb-3.mb-lg-0: img(data-aos='zoom-in')(src='@/assets/curso/temas/69.jpg')
+          .col-lg-8.mb-3.order-1.order-lg-2(data-aos='fade-left')
             .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4
               .text-white: h4.mb-0.me-3.fst-italic Las escalas de actitudes
             p Las escalas de actitudes obtienen información a partir del análisis objetivo de las actitudes de la población. Implican procedimientos para darle un valor cuantitativo o medible a la aceptación o rechazo por parte de los implicados. Por ejemplo: si un encuestado responde que no está satisfecho con el servicio porque todos los días lo atienden mal, se le puede dar un valor de “2”, porque es “mala atención”; de esta forma, el resultado se convierte en cuantitativo y se puede medir.
             .d-flex.align-items-start.justify-content-center
               img(src="@/assets/curso/temas/dots.svg" style="width: 84px").me-3.d-lg-block.d-none
               p La escala de Likert es un instrumento que, a diferencia de los cuestionarios, debe ser estandarizado y con una mejor preparación para obtener los datos con mayor confiabilidad y validez.
-          .col-lg-12.order-3
+          .col-lg-12.order-3(data-aos='fade-left')
             p La escala de Likert es un instrumento que, a diferencia de los cuestionarios, debe ser estandarizado y con una mejor preparación para obtener los datos con mayor confiabilidad y validez.
               br
               br
@@ -445,7 +445,7 @@
                 span.r-1 Intensidad de la respuesta: 
                 |la cual puede ser alta si la persona está convencida y su actitud o comportamiento es justificado, o baja si la persona no piensa así.
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos='fade-right')
         p Para construir una encuesta con preguntas y respuestas basadas en la escala de Likert, se debe llevar a cabo el siguiente procedimiento:
         ol.lista-ol--cuadro
           li 
@@ -478,12 +478,12 @@
             |  Construir la escala final con base en los ítems seleccionados.
       .col-lg-6
         img.rounded-3(data-aos='zoom-in')(src='@/assets/curso/temas/70.jpg')
-    .divisor-2
+    .divisor-2(data-aos='zoom-in')
       p.text-center Algunas de las alternativas que se presentan en una escala Likert son: 
       .titulo-sexto.color-acento-contenido
         h5 Tabla 2
         span Alternativas en una escala Likert
-      .tabla-1.mb-5
+      .tabla-a.tabla-1.mb-5
         table
           thead
             tr
@@ -535,7 +535,7 @@
       .titulo-sexto.color-acento-contenido
           h5 Tabla 3
           span Ejemplo
-      .tabla-1.mb-5
+      .tabla-a.tabla-1.mb-5
         table
           thead
             tr
@@ -621,7 +621,7 @@ export default {
 .bg-tema2
   background-image: url(../assets/curso/temas/bg-tema2.png)
   background-repeat: no-repeat
-  background-size: cover
+  background-size: 100%
   background-position: start
 .bg-tg-2
   background-image: url(../assets/curso/temas/bg-tg-2.png)
@@ -688,4 +688,25 @@ export default {
   margin: 0 -3rem
   padding: 3rem
   background-color: #d7e2f2
+.box-shadow
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1)
+  border-radius: 20px
+  position: relative
+  @media (max-width: $bp-max-lg)
+    .box-shadow:before
+      content: ''
+      position: absolute
+      top: 5%
+      left: 50%
+      width: 1px
+      height: 90%
+      tranaform: translateY(50%) translateX(50%)
+      background-color: #12263f
+    .tarjeta
+      border-radius: 0px !important
+thead
+  th
+    font-size: 18px !important
+.tabs-a__tab
+    background-color: #e8e8e8
 </style>
