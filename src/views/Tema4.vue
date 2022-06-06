@@ -9,7 +9,7 @@
     .tarjeta.bg-tg-4.p-5.mb-5(data-aos='zoom-in')
       .row.p-lg-5
         .col-xl-6
-          p(data-aos='fade')  El diagnóstico puede definirse como una herramienta que ayuda a conocer detalladamente el estado actual de una organización e identificar los problemas que impiden su progreso. Existen diferentes tipos de metodologías para aplicar diagnósticos empresariales, algunos se enfocan en la empresa, otros en los clientes, otros en el área financiera, área de marketing, procesos de producción, entre otros. Lo más importante es obtener una información de la situación real de la empresa que permita tomar buenas decisiones para su proyección y crecimiento.
+          p(data-aos='fade')  El diagnóstico puede definirse como una herramienta que ayuda a conocer detalladamente el estado actual de una organización e identificar los problemas que impiden su progreso. Existen diferentes tipos de metodologías para aplicar diagnósticos empresariales, algunos se enfocan en la empresa, otros en los clientes, otros en el área financiera, área de <em>marketing</em>, procesos de producción, entre otros. Lo más importante es obtener una información de la situación real de la empresa que permita tomar buenas decisiones para su proyección y crecimiento.
     Separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.1  Concepto de diagnóstico de clientes
@@ -18,6 +18,9 @@
         .row
           .col-lg-8.mb-3(data-aos='fade-left')
             p Entendiendo el diagnóstico como una herramienta empresarial que ayuda a conocer el estado actual de un proceso, entonces es posible decir que el diagnóstico de clientes es la obtención de todos los datos relacionados con el comportamiento de los clientes y su relación con la empresa en todas sus áreas, mercadeo, comunicación, ventas, servicio, entre otras. Es el conjunto de herramientas que ayuda a comprender el estado de las relaciones entre cliente-empresa-cliente.
+              br
+              br
+              | Un buen diagnóstico de clientes tiene las siguientes características y beneficios:
           .col-lg-4.mb-3.mb-lg-0: img(data-aos='zoom-in')(src='@/assets/curso/temas/94.jpg')
           .col-lg-12(data-aos='fade-right')
             ul.lista-ul--color
@@ -89,10 +92,10 @@
           .bloque-texto-d.color-primario.p-4
             .bloque-texto-d__texto.mb-2
               i.fas.fa-quote-left
-              p.text-regular Existen diferentes métodos y técnicas para obtener la información del mercado que puede ser importante en la investigación. La selección del método de recolección de información depende del enfoque de la estrategia, las variables seleccionadas, la exactitud esperada, la zona de recolección y las capacidades del encuestador. Estas técnicas reúnen y ayudan a organizar la información de acuerdo con el objetivo trazado.
+              p.text-regular Para comenzar con el proceso de diagnóstico de clientes, es importante abordar 4 conceptos importantes, como los mencionan Barroso y Martin (1999), quienes agrupan cuatro aspectos esenciales sobre el cliente: <b>valor recibido, repetición de compra, satisfacción del cliente y recomendación de la empresa a terceros</b>. Estos aspectos han sido la base fundamental de la fidelidad del cliente hacia la empresa. El cliente fiel puede perdonar percances del servicio, disminuir la sensibilidad al precio y difundir una comunicación de boca en boca favorable del servicio
               i.fas.fa-quote-right
             .bloque-texto-d__autor 
-              .h6.mb-0 (Caro, 2019). 
+              .h6.mb-0 (Ramírez y Duque, 2013). 
         p.mb-5 La recompra, la confianza, la satisfacción y las recomendaciones del producto hacia otras personas son variables importantes, que deben ser monitoreadas por la empresa. Para ello, es importante diseñar un diagnóstico enfocado al cliente (consumidor), que permita hacer monitoreo en las diferentes etapas del servicio. 
     .row.justify-content-center.mb-5
       .col-lg-4(data-aos='zoom-in')
@@ -105,43 +108,43 @@
           .d-flex.align-items-center.mb-4
             img(src="@/assets/curso/temas/102.svg" style="width: 70px").me-2
             p.fw-bold.mb-0 Modelo americano sobre el índice de satisfacción del consumidor
-          p Satisfacción del cliente.
+          p • Satisfacción del cliente.
             br
-            |Expectativas del cliente.
+            |• Expectativas del cliente.
             br
-            |Calidad percibida.
+            |• Calidad percibida.
       .col-lg-4.mb-3.mb-lg-0
         .tarjeta.bg-verde.hbg--2.rounded-1.h-100.p-5
           .d-flex.align-items-center.mb-4
             img(src="@/assets/curso/temas/103.svg" style="width: 70px").me-2
             p.fw-bold.mb-0 Modelo europeo sobre el índice de satisfacción del consumidor
-          p Satisfacción del cliente.
+          p • Satisfacción del cliente.
             br
-            |Expectativas del cliente.
+            |• Expectativas del cliente.
             br
-            |Calidad percibida.
+            |• Calidad percibida.
             br
-            |Imagen corporativa.
+            |• Imagen corporativa.
       .col-lg-4.mb-3.mb-lg-0
         .tarjeta.bg-verde.hbg--2.rounded-1.h-100.p-5
           .d-flex.align-items-center.mb-4
             img(src="@/assets/curso/temas/104.svg" style="width: 70px").me-2
             p.fw-bold.mb-0 Modelo SERVQUAL
-          p Comunicación de boca en boca (wom).
+          p • Comunicación de boca en boca (wom).
             br
-            |Necesidades personales.
+            |• Necesidades personales.
             br
-            |Experiencias pasadas.
+            |• Experiencias pasadas.
             br
-            |Elementos tangibles.
+            |• Elementos tangibles.
             br
-            |Seguridad.
+            |• Seguridad.
             br
-            |Capacidad de respuesta.
+            |• Capacidad de respuesta.
             br
-            |Empatía.
+            |• Empatía.
             br
-            |Fiabilidad.
+            |• Fiabilidad.
     .row.mb-3
       .col-lg-4.mb-3.mb-lg-0
         .tarjeta.bg-verde.hbg--2.rounded-1.h-100.p-5
@@ -160,13 +163,13 @@
           .d-flex.align-items-center.mb-4
             img(src="@/assets/curso/temas/107.svg" style="width: 70px").me-2
             p.fw-bold.mb-0 Modelo de Reza et al
-          p Experiencia, actitud.
+          p • Experiencia, actitud.
             br
-            |Servicio percibido.
+            |• Servicio percibido.
             br
-            |Recompra, emociones.
+            |• Recompra, emociones.
             br
-            |Satisfacción y confianza.
+            |• Satisfacción y confianza.
     .tarjeta.bg-white.p-5.mb-5.shadow
       .row.justify-content-center.mb-5
         .col-lg-4(data-aos='zoom-in')
@@ -185,7 +188,7 @@
                 | Reputación de marca.
               li.mb-2
                 i.fas.fa-dot-circle.fa-xs
-                | Comunicación de boca en boca. (wom)
+                | Comunicación de boca en boca. <em>(wom)</em>
               li.mb-2
                 i.fas.fa-dot-circle.fa-xs
                 | Emociones.
@@ -252,14 +255,11 @@
               li.mb-2
                 i.fas.fa-dot-circle.fa-xs
                 | Recompra.
-              li.mb-2
-                i.fas.fa-dot-circle.fa-xs
-                | Confianza.
     .row.justify-content-center.mb-5
         .col-lg-4(data-aos='zoom-in')
           .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4.m-auto
             .text-white: h4.mb-0.me-3 Paso 3: Implementación del diagnóstico
-    p.mb-5 La aplicación del diagnóstico es un sistema que integra las tres fases del proceso: antes, durante y después; donde la primera y tercera fases generan un ciclo debido a la medición constante de la satisfacción, experiencias positivas, ocasiones, recompra y construcción de confianza. Para su desarrollo, se puede aplicar la técnica del focus group, integrando diferentes actores de la empresa relacionados con el cliente.
+    p.mb-5 La aplicación del diagnóstico es un sistema que integra las tres fases del proceso: antes, durante y después; donde la primera y tercera fases generan un ciclo debido a la medición constante de la satisfacción, experiencias positivas, ocasiones, recompra y construcción de confianza. Para su desarrollo, se puede aplicar la técnica del <em>focus group</em>, integrando diferentes actores de la empresa relacionados con el cliente.
     .titulo-sexto.color-acento-contenido
       h5 Figura 3
       span Modelo de diagnóstico de clientes para una empresa

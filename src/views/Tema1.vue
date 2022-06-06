@@ -23,7 +23,7 @@
               span.r-1 Kotler y Armstrong (2013)
               |, el mercadeo es un “proceso mediante el cual las empresas crean valor para sus clientes y generan fuertes relaciones con ellos para, en reciprocidad, captar valor de los clientes”. Igualmente, 
               span.r-1 Stanton et al (2007) 
-              | manifiestan que el “concepto de marketing hace hincapié en la orientación al cliente y en la coordinación de las actividades de <em>marketing</em> para alcanzar los objetivos de desempeño de la organización”.
+              | manifiestan que el “concepto de <em>marketing</em> hace hincapié en la orientación al cliente y en la coordinación de las actividades de <em>marketing</em> para alcanzar los objetivos de desempeño de la organización”.
             .cajon.color-primario.bg-1-claro.px-4.py-3(data-aos='fade-right')
               p.mb-0 Teniendo en cuenta lo anterior, puede decirse que el mercadeo se compone de procesos y acciones que tienen como objetivo conocer las necesidades de los consumidores, para diseñar estrategias que pueden influir en su comportamiento, gustos y necesidades. Las técnicas de <em>marketing</em> buscan generar valor agregado en los clientes para generar experiencias y recordación. 
           .col-lg-12
@@ -180,18 +180,18 @@
               | (Lamb, 2006:180). A cada segmento o porción de mercado se le denomina “nicho de mercado”.
             .d-flex.align-items-center.justify-content-center
               img(src="@/assets/curso/temas/dots.svg" style="width: 84px").me-3.d-lg-block.d-none
-              p.mb-0 Un mercado, luego de ser dividido o segmentado, se convierte en un foco de actividad para toda la acción de marketing, que de acuerdo con Porter, son acciones que una empresa aplica para posicionarse en ese grupo de consumidores.
+              p.mb-0 Un mercado, luego de ser dividido o segmentado, se convierte en un foco de actividad para toda la acción de <em>marketing</em>, que de acuerdo con Porter, son acciones que una empresa aplica para posicionarse en ese grupo de consumidores.
           .col-lg-4.col-8.order-lg-2.order-1.mb-5.mb-lg-0: img(data-aos='zoom-in')(src='@/assets/curso/temas/13.jpg')
           .col-lg-12.order-3
             .cajon-b.color-primario.abajo-derecha.p-3.mb-5
-              p.mb-0 Entonces, se puede complementar que la segmentación divide una porción grande de mercado en subgrupos de clientes con un potencial de compra, y de acuerdo con sus características, pueden requerir un producto diferente o una estrategia de comunicación diferente. De acuerdo con Kerin et al (2014), la segmentación divide a los compradores potenciales en grupos o nichos que tienen intereses comunes y responden de manera similar a una estrategia de marketing. Entre las variables o ítems que se pueden segmentar, se tienen los usos, deseos, capacidad de compra, lugar de residencia, actitudes, hábitos de compra, entre otros.
+              p.mb-0 Entonces, se puede complementar que la segmentación divide una porción grande de mercado en subgrupos de clientes con un potencial de compra, y de acuerdo con sus características, pueden requerir un producto diferente o una estrategia de comunicación diferente. De acuerdo con Kerin et al (2014), la segmentación divide a los compradores potenciales en grupos o nichos que tienen intereses comunes y responden de manera similar a una estrategia de <em>marketing</em>. Entre las variables o ítems que se pueden segmentar, se tienen los usos, deseos, capacidad de compra, lugar de residencia, actitudes, hábitos de compra, entre otros.
       .col-lg-3.col-10(data-aos='zoom-in-up'): img(src='@/assets/curso/temas/14.jpg')
     p.text-center.fw-bold.mb-5 Cuando se comienza con un proceso de segmentación, se pueden desarrollar los siguientes pasos:
     .row.justify-content-center.mb-5
       .col-lg-10: img(data-aos='zoom-in')(src='@/assets/curso/temas/15.svg')
     .d-flex.align-items-center.justify-content-center.mb-5
       img(src="@/assets/curso/temas/dots.svg" style="width: 84px").me-3.d-lg-block.d-none
-      p.mb-0 Al momento de segmentar o dividir el mercado, es posible utilizar varios criterios basados en diversos parámetros de acuerdo con la capacidad de la empresa y las características del producto, lo que hace posible seleccionar diferentes variables que permitan identificar si un segmento es potencialmente viable para convertirse en un foco de la organización, si es posible venderles el producto, o es un segmento de la competencia, qué variables identifican sus gustos, qué variables nos brindan información de la fidelidad del cliente, etc.
+      p.mb-0 Al momento de segmentar o dividir el mercado, es posible utilizar varios criterios basados en diversos parámetros de acuerdo con la capacidad de la empresa y las características del producto, lo que hace posible seleccionar diferentes variables que permitan identificar si un segmento es potencialmente viable para convertirse en un foco de la organización, si es posible venderles el producto, o es un segmento de la competencia,¿Qué variables identifican sus gustos?, ¿Qué variables nos brindan información de la fidelidad del cliente?, etc.
     .bg-cards.color-2.mb-5(data-aos='zoom-in')
       .row.justify-content-center
         .col-lg-4.mb-lg-0
@@ -217,7 +217,7 @@
       .col-lg-6(data-aos='fade-right')
         .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4
           .text-white: h4.mb-0.me-3 Criterios para segmentar mercados de consumidores
-        p.mb-3 Cuando se habla de segmentar a los consumidores, es necesario identificar las variables que caractericen a los individuos dentro del mercado. El responsable de marketing debe subdividir el mercado con el fin de agrupar el público.
+        p.mb-3 Cuando se habla de segmentar a los consumidores, es necesario identificar las variables que caractericen a los individuos dentro del mercado. El responsable de <em>marketing</em> debe subdividir el mercado con el fin de agrupar el público.
           br
           br
           | Las variables más comunes para segmentar los mercados son:
@@ -537,7 +537,7 @@
         img(data-aos='zoom-in')(src='@/assets/curso/temas/36.svg')
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos='fade-right')
-        p Con el cumplimiento de los criterios anteriores, es posible garantizar que el segmento funcione para una correcta estrategia de marketing. 
+        p Con el cumplimiento de los criterios anteriores, es posible garantizar que el segmento funcione para una correcta estrategia de <em>marketing</em>. 
         .tarjeta.bg-3-claro.p-4.d-flex.align-items-center.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/37.svg' style='width: 115px').me-3
           p.mb-0 Para ampliar el conocimiento acerca de los conceptos y tendencias de mercadeo, observe el video 

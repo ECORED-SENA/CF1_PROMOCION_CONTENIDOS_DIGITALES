@@ -303,6 +303,11 @@ export default {
     },
     {
       referencia:
+        'Comportamiento_del_consumidor. (s. f.). Unidad 1 El consumidor. ',
+      link: 'https://sites.google.com/site/elcomportamientodelconsumidor',
+    },
+    {
+      referencia:
         'Díaz Bravo, L., Torruco-García, U., Martínez-Hernández, M. y Varela-Ruiz, M. (2011). La entrevista, recurso flexible y dinámico. Investigación en Educación Médica, 2(7), p. 162-167.',
       link: 'https://www.redalyc.org/pdf/3497/349733228009.pdf',
     },
@@ -403,7 +408,18 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -415,7 +431,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

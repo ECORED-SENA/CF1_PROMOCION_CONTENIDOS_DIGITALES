@@ -10,8 +10,8 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Ejercicio de segmentación básica de clientes
-        p.mb-4 Apropiar aspectos relevantes de mercadeo, producto, clientes y diagnóstico, de acuerdo con el componente formativo.
+          h2 Prospectar clientes de acuerdo con los segmentos objetivo y estrategia de ventas
+        p.mb-4 Diagnosticar clientes de interés de acuerdo con el mercado objetivo de la organización.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

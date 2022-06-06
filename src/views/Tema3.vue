@@ -37,7 +37,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Tabla 4
           span Comparación usuario vs. cliente
-        .tabla-1.mb-5
+        .tabla-a.tabla-1.mb-5
           table.text-center
             thead
               tr
@@ -115,7 +115,7 @@
       .col-lg-9.mb-3(data-aos='fade-right')
         .row
           .col-lg-8.mb-3
-            p Para una organización, es importante conocer sus clientes a profundidad y detalle; para ello, todas las áreas deben estar comprometidas alrededor de la experiencia del cliente para dejarlo satisfecho con el cumplimiento de sus necesidades. Las áreas de marketing, ventas y servicio dependen en gran medida del conocimiento del cliente, para así generar acciones efectivas. 
+            p Para una organización, es importante conocer sus clientes a profundidad y detalle; para ello, todas las áreas deben estar comprometidas alrededor de la experiencia del cliente para dejarlo satisfecho con el cumplimiento de sus necesidades. Las áreas de <em>marketing</em>, ventas y servicio dependen en gran medida del conocimiento del cliente, para así generar acciones efectivas. 
             .d-flex.align-items-start.justify-content-center
               img(src="@/assets/curso/temas/dots-3.svg" style="width: 84px").me-3.d-lg-block.d-none
               p Cuando se construyen adecuadamente perfiles de los clientes, la venta será más efectiva, más aún si se cuenta con un sistema que permita su creación, análisis y construcción.
@@ -126,7 +126,7 @@
             p Las actividades como la atención, el servicio posventa, el seguimiento y la fidelización funcionan como soporte para fortalecer el relacionamiento con los clientes. Un perfil de consumidor (o de cliente) es una descripción detallada de un público objetivo, es decir, más allá de la segmentación, es tener información real de las interacciones que el consumidor tiene con la empresa, con la finalidad de mejorar las interacciones y hacer un verdadero acompañamiento. 
       .col-lg-3.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/temas/80.jpg')
     .tarjeta.bg-white.p-5(data-aos='zoom-in')
-      p Hoy día, existen diferentes conceptos relacionados con el perfil de cliente o consumidor, uno de ellos es el concepto de buyer persona, el cual se presenta a continuación:
+      p Hoy día, existen diferentes conceptos relacionados con el perfil de cliente o consumidor, uno de ellos es el concepto de <em>buyer</em> persona, el cual se presenta a continuación:
       .row.justify-content-center.mb-5(data-aos='zoom-in')
         .col-lg-5.mb-3.mb-lg-0
           .tarjeta.tarjeta-slide-arriba.color-secundario.p-5
@@ -146,10 +146,10 @@
               img(src='@/assets/curso/temas/84.png')
             img(src='@/assets/curso/temas/82.svg' style='width: 99px').m-auto.mb-3
             .text-white.text-center
-              h5 Buyer persona
+              h5 <em>Buyer</em> persona
               p Solo se enfoca en personas.
                 br
-                |Un buyer persona puede consumir productos diferentes.
+                |Un <em>buyer</em> persona puede consumir productos diferentes.
                 br
                 |Tienen en común las personas.
       .row.justify-content-center.mb-5
@@ -169,7 +169,7 @@
               | Generar experiencias diferenciadoras para el usuario.
             li.mb-2
               i.fas.fa-dot-circle.fa-xs
-              | Crear estrategias de marketing efectivas.
+              p.mb-0 Crear estrategias de <em>marketing</em> efectivas.
             li.mb-2
               i.fas.fa-dot-circle.fa-xs
               | Consolidar equipos de ventas.
@@ -359,7 +359,7 @@
       .col-lg-4.col-8
         img.rounded-3(data-aos='zoom-in-up')(src='@/assets/curso/temas/94.svg').mb-3.mb-lg-0
       .col-lg-8(data-aos='fade-left')
-        p Con esta información disponible, el equipo de marketing de la compañía puede trabajar en el diseño e implementación de campañas efectivas para cada perfil de consumidores.
+        p Con esta información disponible, el equipo de <em>marketing</em> de la compañía puede trabajar en el diseño e implementación de campañas efectivas para cada perfil de consumidores.
         .tarjeta.bg-3-claro.p-4.d-flex.align-items-center
           img(src='@/assets/curso/temas/37.svg' style='width: 115px').me-3
           p.mb-0(data-aos='fade') Para ampliar el conocimiento del consumidor, es importante comprender que hoy día existen nuevos hábitos de consumo y que las condiciones sociales y económicas llevan a renovar dichos hábitos. Visualice el video 

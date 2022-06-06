@@ -9,7 +9,7 @@
     .tarjeta.bg-tg-2.p-5.mb-5(data-aos='zoom-in')
       .row.p-lg-5
         .col-xl-6
-          p(data-aos='fade') Luego de segmentar los públicos potenciales, es importante investigar las características del mercado donde se encuentra ubicado ese grupo de clientes. Para ello, se utiliza la investigación de mercados, una actividad que permite obtener información del sector para una correcta toma de decisiones al momento de implementar acciones de marketing. 
+          p(data-aos='fade') Luego de segmentar los públicos potenciales, es importante investigar las características del mercado donde se encuentra ubicado ese grupo de clientes. Para ello, se utiliza la investigación de mercados, una actividad que permite obtener información del sector para una correcta toma de decisiones al momento de implementar acciones de <em>marketing</em>. 
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1  Concepto de investigación de mercados
@@ -159,7 +159,7 @@
             .d-inline.align-items-center
             .text-center
               h5
-                span.r-1 Mercado industrial
+                span.r-1 No es intrusiva
               p El foco de investigación (objeto observado) no es intervenido por el observador.
       .col-lg-3.col-8.mb-3.mb-lg-0
         .tarjeta.tarjeta-slide-arriba.bg-3-claro.p-5(style='height: 295px ')
@@ -335,7 +335,7 @@
             button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='6' aria-label='Slide 7')
           .carousel-inner.bg-slyder-bootstrap.px-5
             .carousel-item.active.p-5
-              p.text-white Se obtienen datos directamente del consumidor que usa el producto o es foco de la campaña de marketing.
+              p.text-white Se obtienen datos directamente del consumidor que usa el producto o es foco de la campaña de <em>marketing</em>.
               
             .carousel-item.p-5
               p.text-white El moderador orienta las preguntas al grupo y dirige el encuentro, para que los participantes puedan expresarse con naturalidad.
@@ -412,7 +412,7 @@
         .col-lg-9
           .d-flex.align-items-start.justify-content-center.my-5
             img(src="@/assets/curso/temas/dots.svg" style="width: 84px").me-3.d-lg-block.d-none
-            p Surveymonkey es una plataforma especializada para el desarrollo de encuestas en línea, muy útil no solo para el diseño del cuestionario, sino también para la organización y graficación de los resultados. El siguiente es un ejemplo de cuestionario, que puede servir para una investigación básica de un producto o servicio y que incluye diferentes tipos de preguntas.
+            p <em>Surveymonkey</em> es una plataforma especializada para el desarrollo de encuestas en línea, muy útil no solo para el diseño del cuestionario, sino también para la organización y graficación de los resultados. El siguiente es un ejemplo de cuestionario, que puede servir para una investigación básica de un producto o servicio y que incluye diferentes tipos de preguntas.
 
         .col-lg-3
           a.anexo.bg-white(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
