@@ -243,7 +243,7 @@
     p.mb-5 Las entrevistas, según la investigación, se clasifican en tres tipos, de acuerdo con Díaz et al. (2013): 
     figure(data-aos='zoom-in').mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/4DtWOtrYU0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .titulo.rounded-pill.color-primario.p-2.d-inline-block.mb-4
       .text-white: h4.mb-0.me-3 La encuesta
     p.mb-5 La encuesta es un método de investigación y recopilación de datos utilizado para obtener información a partir de un grupo de individuos, sobre diversos temas, mediante una serie de preguntas organizadas estratégicamente. A diferencia de la entrevista, no requieren de una interacción directa entre el entrevistador y el entrevistado, incluso, puede desarrollarse mediante correo electrónico u otro sistema informático. Al igual que la entrevista, puede tener preguntas abiertas y cerradas, así: 
