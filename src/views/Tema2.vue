@@ -415,7 +415,7 @@
             p <em>Surveymonkey</em> es una plataforma especializada para el desarrollo de encuestas en línea, muy útil no solo para el diseño del cuestionario, sino también para la organización y graficación de los resultados. El siguiente es un ejemplo de cuestionario, que puede servir para una investigación básica de un producto o servicio y que incluye diferentes tipos de preguntas.
 
         .col-lg-3
-          a.anexo.bg-white(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.anexo.bg-white(:href="obtenerLink('/downloads/plantilla.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto.bg-whiter
