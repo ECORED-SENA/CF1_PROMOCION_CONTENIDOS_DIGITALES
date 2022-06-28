@@ -299,7 +299,7 @@
           p
             span.r-1.text-center Encuestas en papel
               br
-            | Cuando se entregan las preguntas y el sujeto las responde de forma autónoma.Cuando se entregan las preguntas y el sujeto las responde de forma autónoma.
+            | Cuando se entregan las preguntas y el sujeto las responde de forma autónoma.
       .col-lg-3.mb-4
         .tarjeta.tarjeta-avatar-slide.bg-verde.p-4.h-100
           .tarjeta-avatar-slide__img.mb-4

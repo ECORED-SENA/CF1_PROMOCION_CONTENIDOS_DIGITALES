@@ -30,7 +30,7 @@
             p El conocimiento del consumidor da como resultado que la empresa adapte y “conecte” su producto con las necesidades de los clientes, motivar la compra y generar ventas y rentabilidad para la empresa. Esta adecuación da como resultado la estructuración de precios, promociones, encontrar canales de distribución adecuados y promover todos los beneficios y atributos del producto para llegar a nuevos consumidores.
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right') 
-      h2 1.2  Tipos de mercado
+      h2 1.2  Tipos de mercados
     p.mb-5(data-aos='fade-right') Dependiendo del enfoque en el cual se ubiquen, los mercados, de acuerdo con Fernández (2009), tienen los siguientes tipos:
     .bg-cards.color-1.mb-5(data-aos='fade-up')
       .row.mb-3
@@ -191,7 +191,7 @@
       .col-lg-10: img(data-aos='zoom-in')(src='@/assets/curso/temas/15.svg')
     .d-flex.align-items-center.justify-content-center.mb-5
       img(src="@/assets/curso/temas/dots.svg" style="width: 84px").me-3.d-lg-block.d-none
-      p.mb-0 Al momento de segmentar o dividir el mercado, es posible utilizar varios criterios basados en diversos parámetros de acuerdo con la capacidad de la empresa y las características del producto, lo que hace posible seleccionar diferentes variables que permitan identificar si un segmento es potencialmente viable para convertirse en un foco de la organización, si es posible venderles el producto, o es un segmento de la competencia,¿Qué variables identifican sus gustos?, ¿Qué variables nos brindan información de la fidelidad del cliente?, etc.
+      p.mb-0 Al momento de segmentar o dividir el mercado, es posible utilizar varios criterios basados en diversos parámetros de acuerdo con la capacidad de la empresa y las características del producto, lo que hace posible seleccionar diferentes variables que permitan identificar si un segmento es potencialmente viable para convertirse en un foco de la organización, si es posible venderles el producto, o es un segmento de la competencia, ¿Qué variables identifican sus gustos?, ¿Qué variables nos brindan información de la fidelidad del cliente?, etc.
     .bg-cards.color-2.mb-5(data-aos='zoom-in')
       .row.justify-content-center
         .col-lg-4.mb-lg-0
@@ -392,7 +392,7 @@
           .col-lg-9.col-12
             .titulo-sexto.color-acento-contenido
               h5 Tabla 1
-              span Variables de segmentación demográficasubtitulo
+              span Variables de segmentación demográfica
             //todo PENDIENTE COMPLETAR TABLA 
             .tabla-a.tabla-1.mb-5
               table

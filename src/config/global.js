@@ -299,7 +299,7 @@ export default {
     {
       referencia:
         'Caro, L. (2019). 7 Técnicas e Instrumentos para la Recolección de Datos. Lifeder.',
-      link: 'https://www.lifeder.com/tecnicas-instrumentosrecoleccion-datos/',
+      link: 'https://www.lifeder.com/tecnicas-instrumentos-recoleccion-datos/',
     },
     {
       referencia:
@@ -329,8 +329,7 @@ export default {
     {
       referencia:
         'Lamb, Ch., Hair, J. y McDaniel, C. (2011). Marketing. Cengage Learning.',
-      link:
-        'https://www.academia.edu/36580935/Marketing_Lamb_Hair_and_McDaniel_11va_Edicion',
+      link: '',
     },
     {
       referencia:
